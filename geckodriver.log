@@ -1,0 +1,182 @@
+1698513087424	geckodriver	INFO	Listening on 127.0.0.1:58123
+1698513087802	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "52529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilea0gjD2"
+Gtk-Message: 22:41:27.816: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:136372): Gtk-WARNING **: 22:41:27.860: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:41:27.860: Failed to load module "canberra-gtk-module"
+
+(firefox:136372): Gtk-WARNING **: 22:41:27.860: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:41:27.860: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698513088299	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698513088357	Marionette	INFO	Listening on port 37541
+WebDriver BiDi listening on ws://127.0.0.1:52529
+Read port: 37541
+1698513088507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:52529/devtools/browser/647200f2-8893-4ba2-aa0d-7ef8dd89ebc8
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/80ndnja80f2uvg4l8sj2su82m, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/obrlaav59g6ii1bi1f00nkdb, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/80ndnja80f2uvg4l8sj2su82m, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/gsi/button?logo_alignment=center&shape=pill&size=large&text=continue_with&theme=undefined&type=undefined&width=325px&client_id=990339570472-k6nqn1tpmitg8pui82bfaun3jrpmiuhs.apps.googleusercontent.com&iframe_id=gsi_109678_837506&as=jQJNalHH9DArbB4I84zpSg, line 127: Script terminated by timeout at:
+gf@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_button_library:127:22
+_.M@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_button_library:127:158
+yi@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_button_library:189:286
+vi@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_button_library:189:225
+pi.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_button_library:186:66
+pi/<@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_button_library:180:288
+oc@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_button_library:55:102
+b@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_button_library:52:473
+
+JavaScript warning: https://static.licdn.com/sc/h/51t74mlo1ty7vakn3a80a9jcp, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/51t74mlo1ty7vakn3a80a9jcp, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/sc/h/7v44l5aw6ujgcy3nh3lqxmucj, line 105: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.licdn.com/sc/h/68ux7ku2ne235melc5bg06ukl, line 2: Script terminated by timeout at:
+emit@https://static.licdn.com/sc/h/68ux7ku2ne235melc5bg06ukl:2:32957
+ct@https://static.licdn.com/sc/h/68ux7ku2ne235melc5bg06ukl:2:33166
+
+1698513122658	Marionette	INFO	Stopped listening on port 37541
+1698513337358	geckodriver	INFO	Listening on 127.0.0.1:51805
+1698513337731	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "54099" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGT6F1P"
+Gtk-Message: 22:45:37.747: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:137586): Gtk-WARNING **: 22:45:37.792: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:45:37.792: Failed to load module "canberra-gtk-module"
+
+(firefox:137586): Gtk-WARNING **: 22:45:37.792: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:45:37.792: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698513338210	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698513338270	Marionette	INFO	Listening on port 33557
+WebDriver BiDi listening on ws://127.0.0.1:54099
+Read port: 33557
+1698513338431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54099/devtools/browser/43f86290-2d17-402c-9d30-1ff9dbe02c15
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/bf2zti0m4hz70upnw90rlmjfm, line 1: Error: Could not lazy load JS with src https://static.licdn.com/aero-v1/sc/h/51t74mlo1ty7vakn3a80a9jcp
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/bf2zti0m4hz70upnw90rlmjfm, line 1: Error: Could not lazy load JS with src https://static.licdn.com/aero-v1/sc/h/8m736dfzskmdn6bwwqz67iiki
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698513345737	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1698513406085	geckodriver	INFO	Listening on 127.0.0.1:34767
+1698513406476	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "60059" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGaO6bO"
+Gtk-Message: 22:46:46.490: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:138671): Gtk-WARNING **: 22:46:46.532: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:46:46.532: Failed to load module "canberra-gtk-module"
+
+(firefox:138671): Gtk-WARNING **: 22:46:46.533: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:46:46.533: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698513406954	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698513407012	Marionette	INFO	Listening on port 35077
+WebDriver BiDi listening on ws://127.0.0.1:60059
+Read port: 35077
+1698513407176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60059/devtools/browser/dedbf063-a43e-4ba1-920c-1c13dd809f8f
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698513414107	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698513421110	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698513428736	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698513438985	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698513448064	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698513456858	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698513465625	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698513474577	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bwk8qfu1p37fbodqnre2xnf1u, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/gjh3zh4r2kdfrxbwkj6eay74, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698513493211	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
