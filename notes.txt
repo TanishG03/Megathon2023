@@ -1,0 +1,15 @@
+Metrics: 1) Extroversion 2) Emotional Stability 3) Agreeableness 4) Conscientiousness 5) Openness
+
+what data can we collect?
+	-> number of followers
+	-> number of following
+	-> date joined
+	-> number of posts
+	-> word length of each post
+	-> content of posts
+		-> hashtags
+	-> comments/replies
+	-> hobbies
+	-> marital status
+	-> likes?
+
