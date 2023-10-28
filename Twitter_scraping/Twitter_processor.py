@@ -11,7 +11,7 @@ data = soup.find_all(
     'div', class_='css-901oao css-cens5h r-1nao33i r-37j5jr r-a023e6 r-16dba41 r-rjixqe r-bcqeeo r-bnwqim r-qvutc0')
 
 for i in data:
-    extracted_data = i.text.strip().replace("\n", " ").replace("\t", " ").replace("   ", " ")
+    extracted_data = i.text.strip().replace("\n", " ").replace("\t", " ").replace("   ", " ").replace("'","").replace('"',"")
     with open('scraed_data.txt', 'a') as f:
         f.write(extracted_data)
         f.write('\n')
