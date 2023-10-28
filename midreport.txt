@@ -1,0 +1,21 @@
+# Problem Statement: Analyze candidates personality/behaviour using social media analysis, psychometric test and challenging puzzles. Represent it using a good design.
+
+# solution:
+    Basic Idea:
+        - Scraping data from LinkedIn/Twitter based on profile, posts, comments etc.
+        - Analyzing the data scrapped using the Big 5 Personality Types based on a research paper ""
+        - Checking the job suitability using ML according to the personality analysis dataset done manually after studying personality types required for tech/sales job
+        - calculating score of the job seeker based on previous point analysis
+        - Frontend including login for the user including few question to support the personality analysis
+        - Frontend will also include a page for the recruiter to view the details of the job seeker
+    Flow of process:
+        Frontend:
+            - The job seeker provides the recruiter with his/her social_media id.
+            - The job seeker answer a few questions to provide the recruiter with some personality data
+        Backend:
+            - The personality analysis is done based on data scrapped from their social media ids and the personality questions answered during the login
+            - Checking the job suitability
+            - Providing the recruiter with the personality score based on different job preferences
+        Frontend:
+            - recruiter can view the details of the job seeker
+
