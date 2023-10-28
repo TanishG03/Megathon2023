@@ -34,3 +34,9 @@ with open("meta_data.txt","w") as f:
     f.write("Interaction Types:"+ str(interaction_types)+"\n")
     f.write("User Interaction Counts:"+ str(user_interaction_counts)+"\n")
 
+with open("scraed_data.txt","r+") as f:
+    txt=f.read()
+    txt=txt.replace("   "," ")
+    txt=txt.replace("'"," ")
+    txt=txt.replace('"'," ")
+    f.write(txt)
