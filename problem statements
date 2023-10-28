@@ -1,0 +1,20 @@
+<!-- 1) QUALCOMM:
+    -> lightweight medical query system, basically automating medical diagnosis, prognosis, symptom detection etc.
+    -> the focus is on being able to have a very light ml model, which can be run on local devices.
+    -> python/Jupyter based environment.
+    -> pre-trained llm for answer completion.
+    -> dataset will be provided, pass it throught the llm and store and access local shared data.
+    -> emphasis on lightweight. -->
+
+2) KonnectNXT:
+    -> analysing candidate's personality based on social media and other google resources.
+    -> have criteria and obtain personality score to choose the best possible candidate for a particular job.
+    -> also, job-specific assessment: extrovert for sales team, introvert but nerdy for tech, nazis not allowed anywhere.
+
+
+
+3) Telangana Gov:
+    -> analysing paddy cultivation in telangana using satellite imagery
+    -> basically, how much paddy is being cultivated in telangana, using any and all info online
+    -> tag where paddy was grown (in state vs out of state), and figure out where telangana grown paddy is being grown.
+    -> satellite imagery can assumed to be used.
