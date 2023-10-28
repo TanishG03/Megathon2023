@@ -1,0 +1,4 @@
+Person's Name:Satya Nadella
+Description:Chairman and CEO of Microsoft Corporation
+Interaction Types:['https://schema.org/FollowAction', 'https://schema.org/SubscribeAction', 'https://schema.org/WriteAction']
+User Interaction Counts:[3103857, 279, 1634]
