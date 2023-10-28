@@ -1192,3 +1192,7 @@ Read port: 40029
 console.error: ({})
 DevTools listening on ws://127.0.0.1:50089/devtools/browser/4c7ef363-b9ad-4c7d-884b-653ac5c9f3bd
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.33229f4a.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.33229f4a.js:1:2714859
+
+1698516904407	Marionette	INFO	Stopped listening on port 40029
