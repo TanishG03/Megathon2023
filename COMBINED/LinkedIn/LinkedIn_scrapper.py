@@ -15,7 +15,7 @@ url = "https://www.linkedin.com/"
 driver.get(url)
 
 # Wait for the login form to be visible
-wait = WebDriverWait(driver, 10)
+wait = WebDriverWait(driver, 30)
 
 login_form = wait.until(EC.presence_of_element_located((By.ID, "session_key")))
 
@@ -109,16 +109,6 @@ soup = BS(page_source, features='html.parser')
 with open('education.html', 'w') as f:
     f.write(str(soup))
 
-# time.sleep(2)
-# print("getting projects...")
-# # third lets scrape the projects of the person
-# driver.get(profile_url+'details/projects/')
-# time.sleep(5)
-# page_source = driver.page_source
-# soup = BS(page_source, features='html.parser')
-# with open('projects.html', 'w') as f:
-#     f.write(str(soup))
-
 time.sleep(2)
 print("getting skills...")
 # fourth lets scrape the skills of the person
@@ -128,6 +118,17 @@ page_source = driver.page_source
 soup = BS(page_source, features='html.parser')
 with open('skills.html', 'w') as f:
     f.write(str(soup))
+
+
+# time.sleep(2)
+# print("getting projects...")
+# # third lets scrape the projects of the person
+# driver.get(profile_url+'details/projects/')
+# time.sleep(5)
+# page_source = driver.page_source
+# soup = BS(page_source, features='html.parser')
+# with open('projects.html', 'w') as f:
+#     f.write(str(soup))
 
 # time.sleep(2)
 # print("getting course taken...")

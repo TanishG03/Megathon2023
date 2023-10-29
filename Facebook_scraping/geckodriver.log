@@ -410,3 +410,60 @@ libva info: Found init function __vaDriverInit_1_20
 libva info: va_openDriver() returns 0
 ATTENTION: default value of option mesa_glthread overridden by environment.
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1698559987094	geckodriver	INFO	Listening on 127.0.0.1:55625
+1698559987096	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "54975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRBIqwH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698559987533	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698559987617	Marionette	INFO	Listening on port 43663
+WebDriver BiDi listening on ws://127.0.0.1:54975
+Read port: 43663
+1698559987800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54975/devtools/browser/4535da9a-41ed-496a-b7f1-87946abe2113
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf, line 47: Script terminated by timeout at:
+C@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:47:1370
+D@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:47:1456
+unstable_scheduleCallback@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:227:976
+scheduleDelayedCallback_DO_NOT_USE@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:228:1687
+e@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:233:913
+a@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:237:489
+h@https://static.xx.fbcdn.net/rsrc.php/v3iDne4/yS/l/makehaste_jhash/JrXVMBm7DJ_dUoc4jb2qW3RW8k64RJJBn8519OVzs8E36AhxffiucrPjnSBbJ7-FDpek6KflOOPdjKir1Jw-6_7Z-gVb4qw7DoxaZAJI0Zdz8KYm5G4HsXMCWNsTonqDInqd.js?_nc_x=kkkI206aNUf:984:435
+a/g<@https://static.xx.fbcdn.net/rsrc.php/v3iAki4/yT/l/makehaste_jhash/3Z-AJbc_ArRRWijJ3GbPfS9FCnPPOtItgDDeBQyJ1BVwzZsMC76tFn7QDBdntLNlXY.js?_nc_x=kkkI206aNUf:387:501
+
+1698560126232	Marionette	INFO	Stopped listening on port 43663
+1698560274640	geckodriver	INFO	Listening on 127.0.0.1:50753
+1698560274642	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekN0pv0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698560275080	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698560275157	Marionette	INFO	Listening on port 41727
+WebDriver BiDi listening on ws://127.0.0.1:38383
+Read port: 41727
+1698560275333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:38383/devtools/browser/8226a8d1-23ea-45f8-8bea-ddee20fdbf07
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698563040625	Marionette	INFO	Stopped listening on port 41727

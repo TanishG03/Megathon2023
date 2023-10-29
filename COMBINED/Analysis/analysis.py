@@ -85,7 +85,7 @@ total_words = 0
 total_posts = 0
 
 lexicon = Empath()
-for p in range(1, 3):
+for p in range(1, 4):
     input_file = sys.argv[p]
     text = remove_duplicate_lines(input_file)
     ### INTROVERT:

@@ -32,7 +32,7 @@ password_field.send_keys(Keys.RETURN)
 
 time.sleep(10)
 
-profile_url = "https://www.facebook.com/markangelcomedy/"
+profile_url = "https://www.facebook.com/ponnurangam.kumaraguru"
 
 driver.get(profile_url)
 
