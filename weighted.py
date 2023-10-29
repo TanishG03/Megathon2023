@@ -25,7 +25,7 @@ for i in range(100):
             print("suitable for tech job")
         elif(tech()<sale() and ((sale()>50) or (extroversion >=3 ))):
             print("suitable for sales job")
-        elif(tech()==sale() and tech() >50 and (extroversion > openness )):
+        elif(tech()==sale() and tech() >50 and (extroversion > openness)):
             print("suitable for sales")
         elif(tech()==sale() and tech() >50 and (extroversion < openness)):
             print("suitable for tech")

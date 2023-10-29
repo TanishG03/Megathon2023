@@ -64,8 +64,8 @@ else:  # very low C
         # elif (agree() == 1 and extro() == 1 and open() == 0):
         #     print("ideal tech person")
     else:  # very high
-        # if (agree() == 0 and extro() == 0):
-        #     print("ideal salesperson")
+        if (agree() == 0 and extro() == 0):
+            print("ideal salesperson")
         # else:
             # print("not suitable")
-        print("not suitable")
+        # print("not suitable")
