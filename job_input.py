@@ -159,7 +159,7 @@ def show_details(name, contact):
         # If data is found, return it as a JSON response
         if data_from_db:
             name, position, contact, linkedin, twitter, facebook, experience, avg1, avg2, avg3, avg4, avg5 = data_from_db
-            ocean_attributes = generate_ocean_attributes()
+            ocean_attributes = generate_ocean_attributes(linkedin, twitter, facebook, avg1, avg2, avg3, avg4, avg5)
             data_dict = {
                 'name': name,
                 'position': position,
@@ -190,7 +190,9 @@ def show_details(name, contact):
 
 import random
 
-def generate_ocean_attributes():
+import random
+
+def generate_ocean_attributes(linkedin, twitter, facebook, avg1, avg2, avg3, avg4, avg5):
     ocean_attributes = {
         "O": random.randint(1, 5),
         "C": random.randint(1, 5),
@@ -199,10 +201,19 @@ def generate_ocean_attributes():
         "N": random.randint(1, 5),
         "Sales": random.randint(0, 100),
         "Tech": random.randint(0, 100),
-        "Political": random.randint(0, 100)
+        "Political": random.randint(0, 100),
+        "LinkedIn": linkedin,
+        "Twitter": twitter,
+        "Facebook": facebook,
+        "Avg1": avg1,
+        "Avg2": avg2,
+        "Avg3": avg3,
+        "Avg4": avg4,
+        "Avg5": avg5
     }
     return ocean_attributes
 
 
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8000)
