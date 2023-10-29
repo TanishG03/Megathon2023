@@ -150,8 +150,8 @@
             <h2 style="font-size: 65px;">Employee Details</h2>
             <p><strong>Experience:</strong> {{ data_dict['experience'] }}</p>
             <p><strong>Contact:</strong> {{ data_dict['contact'] }}</p>
-            <p><strong>LinkedIn:</strong> {{ data_dict['linkedin'] }}</p>
-            <p><strong>Twitter:</strong> {{ data_dict['twitter'] }}</p>
+            <p><strong>LinkedIn:</strong> <a href="{{ data_dict['linkedin'] }}" target="_blank">Click here</a></p>
+            <p><strong>Twitter:</strong> <a href="{{ data_dict['twitter'] }}" target="_blank">Click here</a> &nbsp; &nbsp; <strong>Facebook:</strong> <a href="{{ data_dict['facebook'] }}" target="_blank">Click here</a></p>            
             <p><strong>Role:</strong> {{ data_dict['position'] }}</p>
 
         </div>

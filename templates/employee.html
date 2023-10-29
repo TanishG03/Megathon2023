@@ -65,25 +65,28 @@
         <!-- <h1>Job Application Form</h1> -->
         <form   class="form-container_form">
             <label for="name" style="width: 100%;">NAME</label>
-            <input type="text" id="name" name="name" required><br><br>
+            <input type="text" id="name" name="name" required style="font-family: Circular;"><br><br>
 
             <label for="position">JOB ROLE</label>
-            <select id="position" name="position" required>
+            <select id="position" name="position" required style="font-family: Circular;">
                 <option value="sales">Sales</option>
                 <option value="tech">Tech</option>
             </select><br><br>
 
             <label for="contact">CONTACT NUMBER</label>
-            <input type="tel" id="contact" name="contact" required><br><br>
+            <input type="tel" id="contact" name="contact" required style="font-family: Circular;"><br><br>
 
             <label for="linkedin" style="width: 100%;">LINKEDIN</label>
-            <input type="text" id="linkedin" name="linkedin" required><br><br>
+            <input type="text" id="linkedin" name="linkedin" required style="font-family: Circular;"><br><br>
 <!-- 
             <label for="Twitter" style="width: 100%;">TWITTER</label>
             <input type="text" id="Twitter" name="Twitter" required><br><br> -->
 
             <label for="Twitter" style="width: 100%;">TWITTER</label>
-            <input type="text" id="Twitter" name="Twitter" required><br><br>
+            <input type="text" id="Twitter" name="Twitter" placeholder="Example @ponguru"required style="font-family: Circular;"><br><br>
+
+            <label for="facebook" style="width: 100%;">FACEBOOK</label>
+            <input type="text" id="facebook" name="facebook" placeholder="Example @ponguru"required style="font-family: Circular;"><br><br>
 
 
             <label for="Experience" style="width: 100%;">EXPERIENCE</label>
@@ -533,6 +536,7 @@ var form = document.querySelector('.form-container_form');
                 linkedin: document.getElementById('linkedin').value,
                 // twitter: document.getElementById('Twitter').value
                 twitter: document.getElementById('Twitter').value,
+                facebook: document.getElementById('facebook').value,
                 experience: document.getElementById('Experience').value,
 
             };

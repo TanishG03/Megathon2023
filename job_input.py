@@ -33,6 +33,7 @@ cursor.execute('''
         contact TEXT,
         linkedin TEXT,
         twitter TEXT,
+        facebook TEXT,
         experience TEXT,
         avg1 FLOAT,
         avg2 FLOAT,
@@ -72,6 +73,7 @@ def store_data():
         position = data.get("position")
         linkedin = data.get("linkedin")
         twitter = data.get("twitter")
+        facebook = data.get("facebook")
         experience = data.get("experience")
         avg1 = data.get("avg1")
         avg2 = data.get("avg2")
@@ -84,12 +86,12 @@ def store_data():
         # avg9 = data.get("avg9")
         # avg10 = data.get("avg10")
 
-        print(name, position, contact, linkedin, twitter,experience, avg1, avg2, avg3, avg4, avg5)
+        print(name, position, contact, linkedin, twitter,facebook,experience, avg1, avg2, avg3, avg4, avg5)
 
         cursor.execute('''
-            INSERT INTO form_data (name, position, contact, linkedin, twitter, experience, avg1, avg2, avg3, avg4, avg5)
-            VALUES (?, ?, ?, ?, ?,?, ?, ?, ?, ?, ?)
-        ''', (name, position, contact, linkedin, twitter,experience, avg1, avg2, avg3, avg4, avg5))
+            INSERT INTO form_data (name, position, contact, linkedin, twitter,facebook, experience, avg1, avg2, avg3, avg4, avg5)
+            VALUES (?, ?, ?, ?, ?,?,?, ?, ?, ?, ?, ?)
+        ''', (name, position, contact, linkedin, twitter,facebook,experience, avg1, avg2, avg3, avg4, avg5))
         conn.commit()
         conn.close()
 
@@ -104,16 +106,7 @@ def store_data():
     
 
 @app.route('/getData')
-# def get_data():
-#     # Replace this with your database query to fetch data
-#     data_from_db = [
-#         {'name': 'Tanish Gupta', 'department': 'Executive', 'contact': '1234567890','image_url': '../static/download.jpeg', 'experience': '9+ Years'},
-#         {'name': 'Narain', 'department': 'Address 2', 'contact': '9876543210','image_url': '../static/download.jpeg', 'experience': '4 Years'},
-#         {'name': 'Bipasha', 'department': 'Address 2', 'contact': '9876543210','image_url': '../static/download.jpeg', 'experience': '2 Months'},
 
-#         # Add more items as needed
-#     ]
-#     return jsonify(data_from_db)
 def get_data():
     try:
         # Connect to the database
@@ -156,7 +149,7 @@ def show_details(name, contact):
         cursor = conn.cursor()
 
         # Query the database to fetch data for the specific name and contact number
-        cursor.execute('SELECT name, position, contact, linkedin, twitter, experience, avg1, avg2, avg3, avg4, avg5 FROM form_data WHERE name = ? AND contact = ?', (name, contact))
+        cursor.execute('SELECT name, position, contact, linkedin, twitter,facebook, experience, avg1, avg2, avg3, avg4, avg5 FROM form_data WHERE name = ? AND contact = ?', (name, contact))
         data_from_db = cursor.fetchone()
 
         # Close the database connection
@@ -164,13 +157,14 @@ def show_details(name, contact):
 
         # If data is found, return it as a JSON response
         if data_from_db:
-            name, position, contact, linkedin, twitter, experience, avg1, avg2, avg3, avg4, avg5 = data_from_db
+            name, position, contact, linkedin, twitter, facebook, experience, avg1, avg2, avg3, avg4, avg5 = data_from_db
             data_dict = {
                 'name': name,
                 'position': position,
                 'contact': contact,
                 'linkedin': linkedin,
                 'twitter': twitter,
+                'facebook': facebook,
                 'experience': experience,
                 'avg1': avg1,
                 'avg2': avg2,
