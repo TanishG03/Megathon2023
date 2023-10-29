@@ -16,6 +16,10 @@ def homepage():
 def employee():
     return render_template('employee.html')
 
+@app.route('/recruiter.html')
+def recruiter():
+    return render_template('recruiter.html')
+
 # Connect to SQLite database
 conn = sqlite3.connect('form_data.db')
 cursor = conn.cursor()
@@ -29,16 +33,12 @@ cursor.execute('''
         contact TEXT,
         linkedin TEXT,
         twitter TEXT,
-        question1 INTEGER,
-        question2 INTEGER,
-        question3 INTEGER,
-        question4 INTEGER,
-        question5 INTEGER,
-        question6 INTEGER,
-        question7 INTEGER,
-        question8 INTEGER,
-        question9 INTEGER,
-        question10 INTEGER
+        experience TEXT,
+        avg1 FLOAT,
+        avg2 FLOAT,
+        avg3 FLOAT,
+        avg4 FLOAT,
+        avg5 FLOAT
     )
 ''')
 conn.commit()
@@ -72,23 +72,24 @@ def store_data():
         position = data.get("position")
         linkedin = data.get("linkedin")
         twitter = data.get("twitter")
-        question1 = data.get("question1")
-        question2 = data.get("question2")
-        question3 = data.get("question3")
-        question4 = data.get("question4")
-        question5 = data.get("question5")
-        question6 = data.get("question6")
-        question7 = data.get("question7")
-        question8 = data.get("question8")
-        question9 = data.get("question9")
-        question10 = data.get("question10")
+        experience = data.get("experience")
+        avg1 = data.get("avg1")
+        avg2 = data.get("avg2")
+        avg3 = data.get("avg3")
+        avg4 = data.get("avg4")
+        avg5 = data.get("avg5")
+        # avg6 = data.get("avg6")
+        # avg7 = data.get("avg7")
+        # avg8 = data.get("avg8")
+        # avg9 = data.get("avg9")
+        # avg10 = data.get("avg10")
 
-        print(name, position, contact, linkedin, twitter, question1, question2, question3, question4, question5, question6, question7, question8, question9, question10)
+        print(name, position, contact, linkedin, twitter,experience, avg1, avg2, avg3, avg4, avg5)
 
         cursor.execute('''
-            INSERT INTO form_data (name, position, contact, linkedin, twitter, question1, question2, question3, question4, question5, question6, question7, question8, question9, question10)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ''', (name, position, contact, linkedin, twitter, question1, question2, question3, question4, question5, question6, question7, question8, question9, question10))
+            INSERT INTO form_data (name, position, contact, linkedin, twitter, experience, avg1, avg2, avg3, avg4, avg5)
+            VALUES (?, ?, ?, ?, ?,?, ?, ?, ?, ?, ?)
+        ''', (name, position, contact, linkedin, twitter,experience, avg1, avg2, avg3, avg4, avg5))
         conn.commit()
         conn.close()
 
@@ -100,6 +101,20 @@ def store_data():
         error_message = str(e)
         response_data = {"status": "error", "message": error_message}
         return jsonify(response_data), 500
+    
+
+@app.route('/getData')
+def get_data():
+    # Replace this with your database query to fetch data
+    data_from_db = [
+        {'name': 'Tanish Gupta', 'department': 'Executive', 'contact': '1234567890','image_url': '../static/download.jpeg', 'experience': '9+ Years'},
+        {'name': 'Narain', 'department': 'Address 2', 'contact': '9876543210','image_url': '../static/download.jpeg', 'experience': '4 Years'},
+        {'name': 'Bipasha', 'department': 'Address 2', 'contact': '9876543210','image_url': '../static/download.jpeg', 'experience': '2 Months'},
+
+        # Add more items as needed
+    ]
+    return jsonify(data_from_db)
+
 
 if __name__ == '__main__':
     app.run(debug=True)

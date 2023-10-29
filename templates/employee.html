@@ -34,12 +34,12 @@
           margin-right: 50px;
           text-align: center;
           margin-top: 20px;
-          font-family: Arial, Helvetica, sans-serif;
+          font-family: Circular;
           color: black;
         "
       >
         <li><a href="employee.html" style="color: black;">EMPLOYEE</a></li>
-        <li><a href="hardware.html" style="color: black;">RECRUITER</a></li>
+        <li><a href="recruiter.html" style="color: black;">RECRUITER</a></li>
 
         <li><a href="categories.html"style="color: black;">About Us</a></li>
 
@@ -49,7 +49,7 @@
     <div class="slideshow-container" style="font-family: Arial, Helvetica, sans-serif;background-image: url(../static/blonde-female-executive-posing-with-smile-and-arms-crossed-during-brainstorm-with-managers-indoor-portrait-of-european-student-spending-time-in-hall-with-asian-and-african-friends.jpg); background-size: cover; margin-top: 6%; ;">
 
 
-          <div id="initial_container" style="margin-top: 2%;" >SEARCH, APPLY & FIND YOUR DREAM JOB NOW!</div>
+          <div id="initial_container" style="margin-top: 2%; font-family: Circular;" >SEARCH, APPLY & <br>FIND YOUR DREAM <br>JOB NOW!</div>
           <div id="typing" style="height:100px;" ></div>
        
        
@@ -60,7 +60,7 @@
         GET A STEP CLOSER TO YOUR DREAM JOB
       </div>
   
-    <div style="background-image: url(../static/Untitled.jpeg);background-size: cover; height: 230vh;display: flex; justify-content: center; align-items: center;">
+    <div style="background-image: url(../static/Untitled.jpeg);background-size: cover; height: 500vh;display: flex; justify-content: center; align-items: center;">
       <div class="container_form " style="font-family: Hanson-Bold; width: 50%;">
         <!-- <h1>Job Application Form</h1> -->
         <form   class="form-container_form">
@@ -85,9 +85,13 @@
             <label for="Twitter" style="width: 100%;">TWITTER</label>
             <input type="text" id="Twitter" name="Twitter" required><br><br>
 
+
+            <label for="Experience" style="width: 100%;">EXPERIENCE</label>
+            <input type="text" id="Experience" name="Experience" required><br><br>
+
             <h2>Personality Questions:</h2>
             <div class="options-container">
-                <label for="question1">Question 1:</label>
+                <label for="question1">    'I start conversations'</label>
                 <div class="options">
                     <input type="radio" id="q1-1" name="question1" value="1" required>
                     <label class="color1" for="q1-1">1</label>
@@ -101,7 +105,7 @@
                     <label class="color5" for="q1-5">5</label>
                 </div>
             <br>
-                <label for="question2">Question 2:</label>
+                <label for="question2"> 'I talk to a lot of different people at parties'</label>
                 <div class="options">
                     <input type="radio" id="q2-1" name="question2" value="1" required>
                     <label class="color1" for="q2-1">1</label>
@@ -110,26 +114,26 @@
                     <input type="radio" id="q2-3" name="question2" value="3" required>
                     <label class="color3" for="q2-3">3</label>
                     <input type="radio" id="q2-4" name="question2" value="4" required>
-                    <label for="q2-4">4</label>
+                    <label  for="q2-4">4</label>
                     <input type="radio" id="q2-5" name="question2" value="5" required>
                     <label class="color5" for="q2-5">5</label>
                 </div>
 <br>
-                <label for="question2">Question 3:</label>
+                <label for="question3">'I do like to draw attention to myself'</label>
                 <div class="options">
                     <input type="radio" id="q3-1" name="question3" value="1" required>
                     <label class="color1" for="q3-1">1</label>
                     <input type="radio" id="q3-2" name="question3" value="2" required>
                     <label class="color2" for="q3-2">2</label>
                     <input type="radio" id="q3-3" name="question3" value="3" required>
-                    <label class="color3" for="q2-3">3</label>
+                    <label class="color3" for="q3-3">3</label>
                     <input type="radio" id="3-4" name="question3" value="4" required>
-                    <label for="q3-4">4</label>
+                    <label  for="q3-4">4</label>
                     <input type="radio" id="q3-5" name="question3" value="5" required>
                     <label class="color5" for="q3-5">5</label>
                 </div>
                 <br>
-                <label for="question2">Question 4:</label>
+                <label for="question4">'I dont mind being the center of attention'</label>
                 <div class="options">
                     <input type="radio" id="q4-1" name="question4" value="1" required>
                     <label class="color1" for="q4-1">1</label>
@@ -143,7 +147,7 @@
                     <label class="color5" for="q4-5">5</label>
                 </div>
 <br>
-<label for="question5">Question 5:</label>
+<label for="question5">'I feel comfortable around people'</label>
 <div class="options">
     <input type="radio" id="q5-1" name="question5" value="1" required>
     <label class="color1" for="q5-1">1</label>
@@ -157,7 +161,7 @@
     <label class="color5" for="q5-5">5</label>
 </div>
 <br>
-<label for="question6">Question 6:</label>
+<label for="question6"> 'I am relaxed most of the time'</label>
 <div class="options">
     <input type="radio" id="q6-1" name="question6" value="1" required>
     <label class="color1" for="q6-1">1</label>
@@ -172,7 +176,7 @@
 </div>
 <br>
 
-<label for="question7">Question 7:</label>
+<label for="question7">'I do not have frequent mood swings'</label>
 <div class="options">
     <input type="radio" id="q7-1" name="question7" value="1" required>
     <label class="color1" for="q7-1">1</label>
@@ -187,7 +191,7 @@
 </div>
 <br>
 
-<label for="question8">Question 8:</label>
+<label for="question8"> 'I do not get irritated easily'</label>
 <div class="options">
     <input type="radio" id="q8-1" name="question8" value="1" required>
     <label class="color1" for="q8-1">1</label>
@@ -202,7 +206,7 @@
 </div>
 <br>
 
-<label for="question9">Question 9:</label>
+<label for="question9"> 'I seldom feel blue'</label>
 <div class="options">
     <input type="radio" id="q9-1" name="question9" value="1" required>
     <label class="color1" for="q9-1">1</label>
@@ -217,7 +221,7 @@
 </div>
 <br>
 
-<label for="question10">Question 10:</label>
+<label for="question10">'I like taking pressure'</label>
 <div class="options">
     <input type="radio" id="q10-1" name="question10" value="1" required>
     <label class="color1" for="q10-1">1</label>
@@ -231,6 +235,245 @@
     <label class="color5" for="q10-5">5</label>
 </div>
 <br>
+
+<!-- Question 11 -->
+<label for="question11">'I am interested in people'</label>
+<div class="options">
+    <input type="radio" id="q11-1" name="question11" value="1" required>
+    <label class="color1" for="q11-1">1</label>
+    <input type="radio" id="q11-2" name="question11" value="2" required>
+    <label class="color2" for="q11-2">2</label>
+    <input type="radio" id="q11-3" name="question11" value="3" required>
+    <label class="color3" for="q11-3">3</label>
+    <input type="radio" id="q11-4" name="question11" value="4" required>
+    <label class="color4" for="q11-4">4</label>
+    <input type="radio" id="q11-5" name="question11" value="5" required>
+    <label class="color5" for="q11-5">5</label>
+</div>
+<br>
+
+<!-- Question 12 -->
+<label for="question12">'I sympathize with others feelings'</label>
+<div class="options">
+    <input type="radio" id="q12-1" name="question12" value="1" required>
+    <label class="color1" for="q12-1">1</label>
+    <input type="radio" id="q12-2" name="question12" value="2" required>
+    <label class="color2" for="q12-2">2</label>
+    <input type="radio" id="q12-3" name="question12" value="3" required>
+    <label class="color3" for="q12-3">3</label>
+    <input type="radio" id="q12-4" name="question12" value="4" required>
+    <label class="color4" for="q12-4">4</label>
+    <input type="radio" id="q12-5" name="question12" value="5" required>
+    <label class="color5" for="q12-5">5</label>
+</div>
+<br>
+
+<!-- Question 13 -->
+<label for="question13"> 'I have a soft heart'</label>
+<div class="options">
+    <input type="radio" id="q13-1" name="question13" value="1" required>
+    <label class="color1" for="q13-1">1</label>
+    <input type="radio" id="q13-2" name="question13" value="2" required>
+    <label class="color2" for="q13-2">2</label>
+    <input type="radio" id="q13-3" name="question13" value="3" required>
+    <label class="color3" for="q13-3">3</label>
+    <input type="radio" id="q13-4" name="question13" value="4" required>
+    <label class="color4" for="q13-4">4</label>
+    <input type="radio" id="q13-5" name="question13" value="5" required>
+    <label class="color5" for="q13-5">5</label>
+</div>
+<br>
+
+<!-- Question 14 -->
+<label for="question14"> 'I make people feel at ease'</label>
+<div class="options">
+    <input type="radio" id="q14-1" name="question14" value="1" required>
+    <label class="color1" for="q14-1">1</label>
+    <input type="radio" id="q14-2" name="question14" value="2" required>
+    <label class="color2" for="q14-2">2</label>
+    <input type="radio" id="q14-3" name="question14" value="3" required>
+    <label class="color3" for="q14-3">3</label>
+    <input type="radio" id="q14-4" name="question14" value="4" required>
+    <label class="color4" for="q14-4">4</label>
+    <input type="radio" id="q14-5" name="question14" value="5" required>
+    <label class="color5" for="q14-5">5</label>
+</div>
+<br>
+
+<!-- Question 15 -->
+<label for="question15">'I take time out for others'</label>
+<div class="options">
+    <input type="radio" id="q15-1" name="question15" value="1" required>
+    <label class="color1" for="q15-1">1</label>
+    <input type="radio" id="q15-2" name="question15" value="2" required>
+    <label class="color2" for="q15-2">2</label>
+    <input type="radio" id="q15-3" name="question15" value="3" required>
+    <label class="color3" for="q15-3">3</label>
+    <input type="radio" id="q15-4" name="question15" value="4" required>
+    <label class="color4" for="q15-4">4</label>
+    <input type="radio" id="q15-5" name="question15" value="5" required>
+    <label class="color5" for="q15-5">5</label>
+</div>
+<br>
+
+<!-- Question 16 -->
+<label for="question16">'I pay attention to details'</label>
+<div class="options">
+    <input type="radio" id="q16-1" name="question16" value="1" required>
+    <label class="color1" for="q16-1">1</label>
+    <input type="radio" id="q16-2" name="question16" value="2" required>
+    <label class="color2" for="q16-2">2</label>
+    <input type="radio" id="q16-3" name="question16" value="3" required>
+    <label class="color3" for="q16-3">3</label>
+    <input type="radio" id="q16-4" name="question16" value="4" required>
+    <label class="color4" for="q16-4">4</label>
+    <input type="radio" id="q16-5" name="question16" value="5" required>
+    <label class="color5" for="q16-5">5</label>
+</div>
+<br>
+
+<!-- Question 17 -->
+<label for="question17">'I get chores done right away'</label>
+<div class="options">
+    <input type="radio" id="q17-1" name="question17" value="1" required>
+    <label class="color1" for="q17-1">1</label>
+    <input type="radio" id="q17-2" name="question17" value="2" required>
+    <label class="color2" for="q17-2">2</label>
+    <input type="radio" id="q17-3" name="question17" value="3" required>
+    <label class="color3" for="q17-3">3</label>
+    <input type="radio" id="q17-4" name="question17" value="4" required>
+    <label class="color4" for="q17-4">4</label>
+    <input type="radio" id="q17-5" name="question17" value="5" required>
+    <label class="color5" for="q17-5">5</label>
+</div>
+<br>
+
+<!-- Question 18 -->
+<label for="question18"> 'I like order'</label>
+<div class="options">
+    <input type="radio" id="q18-1" name="question18" value="1" required>
+    <label class="color1" for="q18-1">1</label>
+    <input type="radio" id="q18-2" name="question18" value="2" required>
+    <label class="color2" for="q18-2">2</label>
+    <input type="radio" id="q18-3" name="question18" value="3" required>
+    <label class="color3" for="q18-3">3</label>
+    <input type="radio" id="q18-4" name="question18" value="4" required>
+    <label class="color4" for="q18-4">4</label>
+    <input type="radio" id="q18-5" name="question18" value="5" required>
+    <label class="color5" for="q18-5">5</label>
+</div>
+<br>
+
+<!-- Question 19 -->
+<label for="question19"> 'I follow a schedule'</label>
+<div class="options">
+    <input type="radio" id="q19-1" name="question19" value="1" required>
+    <label class="color1" for="q19-1">1</label>
+    <input type="radio" id="q19-2" name="question19" value="2" required>
+    <label class="color2" for="q19-2">2</label>
+    <input type="radio" id="q19-3" name="question19" value="3" required>
+    <label class="color3" for="q19-3">3</label>
+    <input type="radio" id="q19-4" name="question19" value="4" required>
+    <label class="color4" for="q19-4">4</label>
+    <input type="radio" id="q19-5" name="question19" value="5" required>
+    <label class="color5" for="q19-5">5</label>
+</div>
+<br>
+
+<!-- Question 20 -->
+<label for="question20">'I am always prepared'</label>
+<div class="options">
+    <input type="radio" id="q20-1" name="question20" value="1" required>
+    <label class="color1" for="q20-1">1</label>
+    <input type="radio" id="q20-2" name="question20" value="2" required>
+    <label class="color2" for="q20-2">2</label>
+    <input type="radio" id="q20-3" name="question20" value="3" required>
+    <label class="color3" for="q20-3">3</label>
+    <input type="radio" id="q20-4" name="question20" value="4" required>
+    <label class="color4" for="q20-4">4</label>
+    <input type="radio" id="q20-5" name="question20" value="5" required>
+    <label class="color5" for="q20-5">5</label>
+</div>
+<br>
+
+<!-- Question 21 -->
+<label for="question21">'I have a rich vocabulary</label>
+<div class="options">
+    <input type="radio" id="q21-1" name="question21" value="1" required>
+    <label class="color1" for="q21-1">1</label>
+    <input type="radio" id="q21-2" name="question21" value="2" required>
+    <label class="color2" for="q21-2">2</label>
+    <input type="radio" id="q21-3" name="question21" value="3" required>
+    <label class="color3" for="q21-3">3</label>
+    <input type="radio" id="q21-4" name="question21" value="4" required>
+    <label class="color4" for="q21-4">4</label>
+    <input type="radio" id="q21-5" name="question21" value="5" required>
+    <label class="color5" for="q21-5">5</label>
+</div>
+<br>
+
+<!-- Question 22 -->
+<label for="question22"> 'I have a vivid imagination'</label>
+<div class="options">
+    <input type="radio" id="q22-1" name="question22" value="1" required>
+    <label class="color1" for="q22-1">1</label>
+    <input type="radio" id="q22-2" name="question22" value="2" required>
+    <label class="color2" for="q22-2">2</label>
+    <input type="radio" id="q22-3" name="question22" value="3" required>
+    <label class="color3" for="q22-3">3</label>
+    <input type="radio" id="q22-4" name="question22" value="4" required>
+    <label class="color4" for="q22-4">4</label>
+    <input type="radio" id="q22-5" name="question22" value="5" required>
+    <label class="color5" for="q22-5">5</label>
+</div>
+<br>
+
+<!-- Question 23 -->
+<label for="question23">'I have excellent ideas'</label>
+<div class="options">
+    <input type="radio" id="q23-1" name="question23" value="1" required>
+    <label class="color1" for="q23-1">1</label>
+    <input type="radio" id="q23-2" name="question23" value="2" required>
+    <label class="color2" for="q23-2">2</label>
+    <input type="radio" id="q23-3" name="question23" value="3" required>
+    <label class="color3" for="q23-3">3</label>
+    <input type="radio" id="q23-4" name="question23" value="4" required>
+    <label for="q23-4">4</label>
+    <input type="radio" id="q23-5" name="question23" value="5" required>
+    <label class="color5" for="q23-5">5</label>
+</div>
+<br>
+
+<label for="question24">'I am quick to understand things'</label>
+<div class="options">
+    <input type="radio" id="q24-1" name="question24" value="1" required>
+    <label class="color1" for="q24-1">1</label>
+    <input type="radio" id="q24-2" name="question24" value="2" required>
+    <label class="color2" for="q24-2">2</label>
+    <input type="radio" id="q24-3" name="question24" value="3" required>
+    <label class="color3" for="q24-3">3</label>
+    <input type="radio" id="q24-4" name="question24" value="4" required>
+    <label for="q24-4">4</label>
+    <input type="radio" id="q24-5" name="question24" value="5" required>
+    <label class="color5" for="q24-5">5</label>
+</div>
+<br>
+
+<label for="question25">'I spend time reflecting on things'</label>
+<div class="options">
+    <input type="radio" id="q25-1" name="question25" value="1" required>
+    <label class="color1" for="q25-1">1</label>
+    <input type="radio" id="q25-2" name="question25" value="2" required>
+    <label class="color2" for="q25-2">2</label>
+    <input type="radio" id="q25-3" name="question25" value="3" required>
+    <label class="color3" for="q25-3">3</label>
+    <input type="radio" id="q25-4" name="question25" value="4" required>
+    <label for="q25-4">4</label>
+    <input type="radio" id="q25-5" name="question25" value="5" required>
+    <label class="color5" for="q25-5">5</label>
+</div>
+<br>
+
 
             </div>
             
@@ -289,22 +532,56 @@ var form = document.querySelector('.form-container_form');
                 contact: document.getElementById('contact').value,
                 linkedin: document.getElementById('linkedin').value,
                 // twitter: document.getElementById('Twitter').value
-                twitter: document.getElementById('Twitter').value
+                twitter: document.getElementById('Twitter').value,
+                experience: document.getElementById('Experience').value,
 
             };
 
             // Get selected options for questions q1 to q10
-            for (var i = 1; i <= 10; i++) {
-                var questionName = 'question' + i;
-                var selectedOption = document.querySelector('input[name="' + questionName + '"]:checked');
+            // for (var i = 1; i <= 25; i++) {
+            //     var questionName = 'question' + i;
+            //     var selectedOption = document.querySelector('input[name="' + questionName + '"]:checked');
 
-                if (selectedOption) {
-                    formData[questionName] = selectedOption.value;
-                }
+            //     if (selectedOption) {
+            //         formData[questionName] = selectedOption.value;
+            //     }
+            // }
+
+            var questionGroups = [];
+    for (var i = 1; i <= 25; i++) {
+        var questionName = 'question' + i;
+        var selectedOption = document.querySelector('input[name="' + questionName + '"]:checked');
+
+        if (selectedOption) {
+            var questionNumber = parseInt(selectedOption.value);
+            var groupIndex = Math.ceil(i / 5) - 1;
+
+            // Initialize the array for each question group if it doesn't exist
+            if (!questionGroups[groupIndex]) {
+                questionGroups[groupIndex] = [];
             }
+
+            questionGroups[groupIndex].push(questionNumber);
+        }
+    }
+    // console.log(questionGroups);
+
+    var averages = questionGroups.map(function(group) {
+        var sum = group.reduce(function(a, b) {
+            return a + b;
+        }, 0);
+        return sum / group.length;
+    });
+
+    // formData.averages = averages;
+    for (var i = 0; i < averages.length; i++) {
+    var key = 'avg' + (i + 1);
+    formData[key] = averages[i];
+}
 
             // Log form data to the console (you can modify this part to send the data to your server)
             console.log(formData);
+
             fetch("/store_data", {
         method: "POST",
         headers: {

@@ -22,6 +22,8 @@ body {
         /* justify-content: center;
     align-items: center; */
     font-size: 30px;
+    font-family: Circular;
+    font-weight: bold;
 }
 
 label {
@@ -92,7 +94,7 @@ h2 {
 }
 
 .options label.color4 {
-    background-color: lightgreen;
+    background-color: #4CAF50;
 }
 
 .options label.color5 {

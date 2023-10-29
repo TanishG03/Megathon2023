@@ -2,6 +2,10 @@
   font-family: 'Hanson-Bold';
   src: url(hanson-bold.ttf);
 }
+@font-face {
+  font-family: 'Circular';
+  src: url(CircularSpotifyTxT-Book.ttf);
+}
 
 nav {
     height: 10.5%;
