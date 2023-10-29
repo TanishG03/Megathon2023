@@ -193,6 +193,7 @@ import random
 import random
 
 def generate_ocean_attributes(linkedin, twitter, facebook, avg1, avg2, avg3, avg4, avg5):
+
     ocean_attributes = {
         "O": random.randint(1, 5),
         "C": random.randint(1, 5),
