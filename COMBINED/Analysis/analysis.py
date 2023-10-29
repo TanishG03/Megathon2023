@@ -237,8 +237,24 @@ for i in range(0, 5):
     if score[i] > 5:
         score[i] = 5
 
-print(f"Conscientiousness: {score[3]:0.3f}\tEmotional Stability: {score[1]:0.3f}\tAgreeableness: {score[3]:0.3f}\n"
+print(f"Conscientiousness: {score[3]:0.3f}\tEmotional Stability: {score[1]:0.3f}\tAgreeableness: {score[2]:0.3f}\n"
       f"Extroversion: {score[0]:0.3f}\tOpenness: {score[4]:0.3f}")
 print(f"Political: {100*politics_coeff/useful_words: 0.2f}%, Tech: {100*tech_coeff/useful_words: 0.2f}%, "
       f"Sales: {100*sales_coeff/useful_words: 0.2f}%")
-print(f"Words-per-post: {total_words/total_posts:0.2f}")
+
+f_n=["Openness","Conscientiousness","Extroversion","Agreeableness","Emotional Stability","Political","Tech","Sales"]
+output = {
+    "Openness":score[4],
+    "Conscientiousness":score[3],
+    "Extroversion":score[0],
+    "Agreeableness":score[2],
+    "Emotional Stability":score[1],
+    "Political":100*politics_coeff/useful_words,
+    "Tech":100*tech_coeff/useful_words,
+    "Sales":100*sales_coeff/useful_words
+}
+import csv
+with open("../../wow.txt",'w') as f:
+    writer = csv.DictWriter(f,f_n)
+    writer.writeheader()
+    writer.writerow(output)

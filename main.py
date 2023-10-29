@@ -7,6 +7,8 @@ import subprocess
 # https://twitter.com/AmanDhattarwal
 # https://www.facebook.com/dhattarwalaman
 import sqlite3
+import pandas as pd
+import joblib
 # Connect to the database
 name=input("Enter Name:")
 contact=input("Enter Contact Number:")
@@ -61,3 +63,58 @@ def run_scripts(script_paths):
 
 # Run the scripts
 run_scripts(script_paths)
+# Load your new data point(s) into a pandas DataFrame
+
+import csv
+
+with open('wow.txt', 'r') as file:
+    reader = csv.reader(file)
+    header = next(reader, None)
+    data = []
+    for item in reader:
+        data.append(item)
+openness = int(data[0][0])
+conscientiousness = int(data[0][1])
+extraversion = int(data[0][2])
+agreeableness = int(data[0][3])
+emotional_stability = int(data[0][4])
+
+# Create a DataFrame for the user input
+new_data = pd.DataFrame({
+    'Openness': [openness],
+    'Conscientiousness': [conscientiousness],
+    'Extraversion': [extraversion],
+    'Agreeableness': [agreeableness],
+    'Emotional Stability': [emotional_stability]
+})
+
+# Load the saved model and label encoders
+classifier, label_encoders = joblib.load('ML_ocean_1.pkl')
+
+# Predict numerical values for the new data point(s)
+predicted_values = classifier.predict(new_data)
+
+# Convert the predicted numerical values back to string labels
+predicted_labels = []
+for i, le in enumerate(label_encoders):
+    predicted_labels.append(le.inverse_transform(predicted_values[:, i]))
+
+# Print the predicted string values
+for label in predicted_labels:
+    print(label[0])
+
+
+model2=joblib.load('ML_ocean.pkl')
+feature_names = ['c','n','a','e','o']
+feature_values = [0,0,0,0,0]
+feature_values[0]=conscientiousness
+feature_values[1]=5-emotional_stability
+feature_values[2]=agreeableness
+feature_values[3]=extraversion
+feature_values[4]=openness
+values=pd.DataFrame([feature_values], columns=feature_names)
+predicted_label = model2.predict(values)
+print("This person is suitable to the roles: ", predicted_label[0])
+print("Political: ", data[0][5])
+print("Tech: ", data[0][6])
+print("Sales: ", data[0][7])
