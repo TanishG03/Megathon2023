@@ -103,7 +103,8 @@ def store_data():
         error_message = str(e)
         response_data = {"status": "error", "message": error_message}
         return jsonify(response_data), 500
-    
+
+
 
 @app.route('/getData')
 
@@ -158,6 +159,7 @@ def show_details(name, contact):
         # If data is found, return it as a JSON response
         if data_from_db:
             name, position, contact, linkedin, twitter, facebook, experience, avg1, avg2, avg3, avg4, avg5 = data_from_db
+            ocean_attributes = generate_ocean_attributes()
             data_dict = {
                 'name': name,
                 'position': position,
@@ -170,7 +172,8 @@ def show_details(name, contact):
                 'avg2': avg2,
                 'avg3': avg3,
                 'avg4': avg4,
-                'avg5': avg5
+                'avg5': avg5,
+                 'ocean_attributes': ocean_attributes  # Add random attributes to data_dict
             }
             return render_template('employee_details.html', data_dict=data_dict)
         else:
@@ -184,6 +187,21 @@ def show_details(name, contact):
         response_data = {"status": "error", "message": error_message}
         return jsonify(response_data), 500
 
+
+import random
+
+def generate_ocean_attributes():
+    ocean_attributes = {
+        "O": random.randint(1, 5),
+        "C": random.randint(1, 5),
+        "E": random.randint(1, 5),
+        "A": random.randint(1, 5),
+        "N": random.randint(1, 5),
+        "Sales": random.randint(0, 100),
+        "Tech": random.randint(0, 100),
+        "Political": random.randint(0, 100)
+    }
+    return ocean_attributes
 
 
 if __name__ == '__main__':

@@ -20,7 +20,6 @@
             justify-content: center;
             flex-direction: column;
             align-items: center;
-            height: 100vh;
             margin: 0;
         }
 
@@ -83,10 +82,17 @@
             height: 300px;
             background-color: #f8f8f8;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+            border-radius: 30px;
             text-align: center;
             margin: 0 20px;
+            transition: box-shadow 0.3s ease;
         }
+
+
+        .container2 .card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
 
         .card p {
             font-size: 24px;
@@ -158,26 +164,42 @@
     </div>
 
     <div class="container2">
-        <div class="card">
+        <div class="card" style="background-image: url(../static/images.jpeg); background-size: cover;">
             <p>Extroversion</p>
-            <p style="font-size: 90px;">{{ data_dict['avg1'] }}</p>
+            <p style="font-size: 90px;">{{ data_dict['ocean_attributes']['E'] }}</p>
         </div>
-        <div class="card">
+        <div class="card"style="background-image: url(../static/blue_aesthetic.jpg); background-size: cover;">
             <p>Emotional Stability</p>
-            <p style="font-size: 90px;">{{ data_dict['avg2'] }}</p>
+            <p style="font-size: 90px;">{{ data_dict['ocean_attributes']['N'] }}</p>
         </div>
-        <div class="card">
+        <div class="card" style="background-image: url(../static/orange.jpg); background-size: cover;">
             <p>Agreeable</p>
-            <p style="font-size: 90px;">{{ data_dict['avg3'] }}</p>
+            <p style="font-size: 90px;">{{ data_dict['ocean_attributes']['A'] }}</p>
         </div>
-        <div class="card">
+        <div class="card"style="background-image: url(../static/red-and-neon-pink-gradient-nkuk6yri93mdljxe.jpg); background-size: cover;">
             <p>Conscientious</p>
-            <p style="font-size: 90px;">{{ data_dict['avg4'] }}</p>
+            <p style="font-size: 90px;">{{ data_dict['ocean_attributes']['C'] }}</p>
         </div>
-        <div class="card">
+        <div class="card" style="background-image: url(../static/aesthetic-colorful-yellow-and-green-gradient-background-illustration-perfect-for-wallpaper-background-backdrop-banner-vector.jpg); background-size: cover;">
             <p>Openess</p>
-            <p style="font-size: 90px;">{{ data_dict['avg5'] }}</p>
+            <p style="font-size: 90px;">{{ data_dict['ocean_attributes']['O'] }}</p>
         </div>
+    </div>
+
+    <div class="container2" style="margin-bottom: 30px;">
+        <div class="card" style="background-image: url(../static/yellow-gradient-1332-x-850-wallpaper-inb6c1lzl96gylco.jpg); background-size: cover;">
+            <p>Sales</p>
+            <p style="font-size: 90px;">{{ data_dict['ocean_attributes']['Sales'] }}</p>
+        </div>
+        <div class="card" style="background-image: url(../static/Untitled.jpeg); background-size: cover;">
+            <p>Tech</p>
+            <p style="font-size: 90px; ">{{ data_dict['ocean_attributes']['Tech'] }}</p>
+        </div>
+        <div class="card"style="background-image: url(../static/red-and-neon-pink-gradient-nkuk6yri93mdljxe.jpg); background-size: cover;">
+            <p>Political</p>
+            <p style="font-size: 90px;">{{ data_dict['ocean_attributes']['Political'] }}</p>
+        </div>
+       
     </div>
 
 
