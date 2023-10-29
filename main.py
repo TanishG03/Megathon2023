@@ -29,20 +29,20 @@ twitter_url = twitter
 fb_url = facebook
 # List of Python scripts to be executed
 script_paths = [
-     "COMBINED/LinkedIn/LinkedIn_scrapper.py", linkedIn_url,
-     "COMBINED/LinkedIn/LinkedIn_processor_basic.py",
-     "COMBINED/LinkedIn/LinkedIn_processor_activities.py",
-     "COMBINED/LinkedIn/LinkedIn_processor_education.py",
-     "COMBINED/LinkedIn/LinkedIn_processor_experince.py",
-     "COMBINED/LinkedIn/LinkedIn_processor_skills.py",
-     # "COMBINED/LinkedIn/LinkedIn_processor_courses.py",
-     # "COMBINED/LinkedIn/LinkedIn_processor_honors.py",
-     # "COMBINED/LinkedIn/LinkedIn_processor_projects.py",
-     # "COMBINED/LinkedIn/LinkedIn_processor_testscores.py",
-    "COMBINED/Twitter/Twitter_scrapper.py", twitter_url,
-    "COMBINED/Twitter/Twitter_processor.py",
-    "COMBINED/Facebook/Facebook_scrapper.py", fb_url,
-    "COMBINED/Facebook/Facebook_processor.py",
+    #  "COMBINED/LinkedIn/LinkedIn_scrapper.py", linkedIn_url,
+    #  "COMBINED/LinkedIn/LinkedIn_processor_basic.py",
+    #  "COMBINED/LinkedIn/LinkedIn_processor_activities.py",
+    #  "COMBINED/LinkedIn/LinkedIn_processor_education.py",
+    #  "COMBINED/LinkedIn/LinkedIn_processor_experince.py",
+    #  "COMBINED/LinkedIn/LinkedIn_processor_skills.py",
+    #  # "COMBINED/LinkedIn/LinkedIn_processor_courses.py",
+    #  # "COMBINED/LinkedIn/LinkedIn_processor_honors.py",
+    #  # "COMBINED/LinkedIn/LinkedIn_processor_projects.py",
+    #  # "COMBINED/LinkedIn/LinkedIn_processor_testscores.py",
+    # "COMBINED/Twitter/Twitter_scrapper.py", twitter_url,
+    # "COMBINED/Twitter/Twitter_processor.py",
+    # "COMBINED/Facebook/Facebook_scrapper.py", fb_url,
+    # "COMBINED/Facebook/Facebook_processor.py",
     "COMBINED/Analysis/analysis.py",
     "COMBINED/scraed_data_ln.txt",
     "COMBINED/scraed_data_tw.txt",
@@ -73,11 +73,11 @@ with open('wow.txt', 'r') as file:
     data = []
     for item in reader:
         data.append(item)
-openness = int(data[0][0])
-conscientiousness = int(data[0][1])
-extraversion = int(data[0][2])
-agreeableness = int(data[0][3])
-emotional_stability = int(data[0][4])
+openness = float(data[0][0])
+conscientiousness = float(data[0][1])
+extraversion = float(data[0][2])
+agreeableness = float(data[0][3])
+emotional_stability = float(data[0][4])
 
 # Create a DataFrame for the user input
 new_data = pd.DataFrame({

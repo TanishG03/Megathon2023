@@ -254,7 +254,7 @@ output = {
     "Sales":100*sales_coeff/useful_words
 }
 import csv
-with open("../../wow.txt",'w') as f:
+with open("wow.txt",'w') as f:
     writer = csv.DictWriter(f,f_n)
     writer.writeheader()
     writer.writerow(output)
