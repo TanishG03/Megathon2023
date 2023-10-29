@@ -2,6 +2,9 @@ import subprocess
 
 # https://www.linkedin.com/in/ponguru/
 # https://twitter.com/ponguru
+# https://www.linkedin.com/in/aman-gupta-7217a515/
+# https://twitter.com/amangupta0303
+
 linkedIn_url = input("Enter LinkedIn URL: ")
 twitter_url = input("Enter Twitter URL: ")
 

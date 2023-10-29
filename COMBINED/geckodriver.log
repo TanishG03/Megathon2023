@@ -1074,3 +1074,184 @@ console.error: ({})
 DevTools listening on ws://127.0.0.1:37253/devtools/browser/1b874525-de9c-47f6-a809-436893d4bb45
 1698557322228	Marionette	INFO	Stopped listening on port 35189
 JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js, line 74: TypeError: can't access dead object
+1698557914267	geckodriver	INFO	Listening on 127.0.0.1:43529
+1698557914269	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "40365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiley3xMKC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698557914753	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698557914857	Marionette	INFO	Listening on port 45953
+WebDriver BiDi listening on ws://127.0.0.1:40365
+Read port: 45953
+1698557914945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:40365/devtools/browser/d6a915cd-8815-4046-b466-739825532ac2
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/sc/h/53pvxhwnu4814i1e9beje3cqa, line 89: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/6af2c0d87b9879cbf3365be1a208293f84d37b1e/standard/funcaptcha_api.js?onload=loadChallenge, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+1698557934773	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698557960895	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698557960895	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698557989650	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698557989651	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698558005770	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698558005770	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698558017006	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698558017006	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698558023442	Marionette	INFO	Stopped listening on port 45953
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 835: Script terminated by timeout at:
+14446/Pt/</r.onsuccess@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:835:235
+
+1698558027734	geckodriver	INFO	Listening on 127.0.0.1:43253
+1698558027736	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "40069" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileix0PoZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558028185	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558028306	Marionette	INFO	Listening on port 34311
+WebDriver BiDi listening on ws://127.0.0.1:40069
+Read port: 34311
+1698558028461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:40069/devtools/browser/ba15a885-43db-44c4-9f22-f11172b9fc5b
+1698558042597	Marionette	INFO	Stopped listening on port 34311
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=tRzuJPH7a9kVnwhzwMUYIw&is_itp=true&channel_id=2b406cb4b5aeb911b15c67981dc7db4ff005082f430ce5499b4eb2de207ceeb1&origin=https%3A%2F%2Ftwitter.com, line 178: Script terminated by timeout at:
+Uh/this.j@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_server_library:178:180
+Xh@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_server_library:179:104
+Uh.prototype.start/this.g<@/_/gsi/_/js/k=gsi.gsi.en_GB.b1L0t3X78Qo.O/am=AFAg/d=1/rs=AF0KOtVprlf2nBqcR14FPwWboTfcmowpNw/m=credential_server_library:178:369
+
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js, line 74: TypeError: can't access dead object
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 802: Script terminated by timeout at:
+emit@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:802:263
+rt@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:803:142
+
+1698558172354	Marionette	INFO	Stopped listening on port 41389
+1698558473194	geckodriver	INFO	Listening on 127.0.0.1:49143
+1698558473698	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "43463" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletVeB0y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558474131	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558474236	Marionette	INFO	Listening on port 37249
+WebDriver BiDi listening on ws://127.0.0.1:43463
+Read port: 37249
+1698558474410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:43463/devtools/browser/11f09748-d766-4c52-b1a6-12a003f4122e
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/bf2zti0m4hz70upnw90rlmjfm, line 1: Error: Could not lazy load JS with src https://static.licdn.com/aero-v1/sc/h/51t74mlo1ty7vakn3a80a9jcp
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/sc/h/53pvxhwnu4814i1e9beje3cqa, line 89: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/6af2c0d87b9879cbf3365be1a208293f84d37b1e/standard/funcaptcha_api.js?onload=loadChallenge, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698558493556	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698558497548	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698558505593	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698558505593	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698558527103	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698558527103	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698558535701	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698558535701	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698558544221	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698558544221	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698558550793	Marionette	INFO	Stopped listening on port 37249
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 835: Script terminated by timeout at:
+14446/Pt/</r.onsuccess/c.oncomplete@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:835:234
+
+1698558554293	geckodriver	INFO	Listening on 127.0.0.1:35081
+1698558554296	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "46265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilef2dxvD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558554730	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558554829	Marionette	INFO	Listening on port 45879
+WebDriver BiDi listening on ws://127.0.0.1:46265
+Read port: 45879
+1698558554998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:46265/devtools/browser/c8b797fb-4ea9-4bfb-837a-3afff73466d6
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558569457	Marionette	INFO	Stopped listening on port 45879
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.33229f4a.js, line 1: Script terminated by timeout at:
+_/t/e._pollForHoverOut/e._hoverOutPollTimer<@https://abs.twimg.com/responsive-web/client-web-legacy/main.33229f4a.js:1:2657953
+
+JavaScript error: https://abs.twimg.com/responsive-web/client-web-legacy/vendor.bc4db04a.js, line 74: TypeError: can't access dead object

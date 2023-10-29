@@ -203,7 +203,7 @@ for p in range(1, 3):
                 for i in range(0, 5):
                     score[i] = score[i] + 2*ans[item]*check[item][i]
 
-    print(total_words, total_posts)
+    # print(total_words, total_posts)
 WC = [.03,-.06,.01,.02,.05]
 for i in range(0, 5):
     score[i] += (total_posts**0.33)*WC[i]

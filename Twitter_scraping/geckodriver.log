@@ -1247,3 +1247,4 @@ Read port: 35955
 1698553117070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 DevTools listening on ws://127.0.0.1:44525/devtools/browser/98a57058-f1a9-4cfe-bb04-965633eeca49
+1698558176485	Marionette	INFO	Stopped listening on port 35955
