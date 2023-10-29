@@ -180,3 +180,556 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1698535777342	geckodriver	INFO	Listening on 127.0.0.1:42767
+1698535777344	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57675" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBBN1Ev"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698535777781	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698535777867	Marionette	INFO	Listening on port 35263
+WebDriver BiDi listening on ws://127.0.0.1:57675
+Read port: 35263
+1698535778047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57675/devtools/browser/5c11cf31-c7e0-415d-9207-b92fb3dbafc7
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698535784590	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698535793905	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698535801812	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698535801813	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698535812570	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698535812571	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698535821279	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698535821279	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698535830021	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698535830022	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698535838710	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698535838710	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698535847348	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698535847349	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698535856155	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698535856155	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698535864753	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698535864753	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536254066	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536254067	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536285339	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536285340	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536359799	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1698536693706	geckodriver	INFO	Listening on 127.0.0.1:37689
+1698536693709	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42933" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCK4Iml"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698536694138	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698536694224	Marionette	INFO	Listening on port 33165
+WebDriver BiDi listening on ws://127.0.0.1:42933
+Read port: 33165
+1698536694404	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42933/devtools/browser/34cf10b3-5e1f-435d-8ba5-b905fd448dcd
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698536701689	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698536708692	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bwk8qfu1p37fbodqnre2xnf1u, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/gjh3zh4r2kdfrxbwkj6eay74, line 2650: unreachable code after return statement
+1698536719631	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536719631	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698536736425	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536736425	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698536745286	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536745286	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698536754047	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536754047	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698536762676	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536762677	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698536771375	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536771376	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698536780295	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536780295	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698536788990	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698536788991	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1698537001120	geckodriver	INFO	Listening on 127.0.0.1:49577
+1698537001122	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "59369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQiVXjs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698537001550	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698537001660	Marionette	INFO	Listening on port 33147
+WebDriver BiDi listening on ws://127.0.0.1:59369
+Read port: 33147
+1698537001838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59369/devtools/browser/c97e85dc-36e9-451b-b4ce-dc7fd2a19876
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698537036523	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537036523	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537059634	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537059634	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537068410	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537068410	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537077129	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537077129	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537085706	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537085706	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537095147	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537095147	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537103434	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537103434	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bwk8qfu1p37fbodqnre2xnf1u, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/gjh3zh4r2kdfrxbwkj6eay74, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537114043	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537114044	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1698537276009	geckodriver	INFO	Listening on 127.0.0.1:35475
+1698537276011	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "35665" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVNAkZ9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698537276429	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698537276520	Marionette	INFO	Listening on port 37585
+WebDriver BiDi listening on ws://127.0.0.1:35665
+Read port: 37585
+1698537276716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:35665/devtools/browser/d940cb61-28b5-49ca-8835-a8ebc8eb258a
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698537283339	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698537324206	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537324206	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537353316	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537353316	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537361961	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537361961	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537371212	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537371212	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537379830	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537379830	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537389160	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537389160	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537397689	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537397690	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537406648	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537406648	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1698537708881	geckodriver	INFO	Listening on 127.0.0.1:49859
+1698537708884	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60207" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKNnBLB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698537709330	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698537709425	Marionette	INFO	Listening on port 38973
+WebDriver BiDi listening on ws://127.0.0.1:60207
+Read port: 38973
+1698537709606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60207/devtools/browser/50fdff7d-1219-48e0-a250-2ee0b17ca1ed
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698537754140	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537754140	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537784459	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537784461	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bwk8qfu1p37fbodqnre2xnf1u, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/gjh3zh4r2kdfrxbwkj6eay74, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537794778	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537794779	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537803460	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537803461	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537812408	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537812408	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bwk8qfu1p37fbodqnre2xnf1u, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/gjh3zh4r2kdfrxbwkj6eay74, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537821620	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537821620	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537830582	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537830582	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698537839690	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698537839692	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1698538059451	geckodriver	INFO	Listening on 127.0.0.1:40273
+1698538059454	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33947" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilend30be"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698538059883	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698538059963	Marionette	INFO	Listening on port 46227
+WebDriver BiDi listening on ws://127.0.0.1:33947
+Read port: 46227
+1698538060160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:33947/devtools/browser/b29af8cb-1d1b-48a8-bb16-1600c42b6a48
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698538066986	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538149222	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698538157345	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538157345	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538188070	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538188070	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538196149	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538196150	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538204826	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538204826	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538213444	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538213444	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538222110	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538222110	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538230704	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538230705	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538239342	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538239342	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 802: Script terminated by timeout at:
+emit@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:802:263
+rt@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:803:142
+
+1698538606861	Marionette	INFO	Stopped listening on port 46227
+1698538617833	geckodriver	INFO	Listening on 127.0.0.1:39673
+1698538617835	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "59109" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevKCKiA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698538618263	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698538618350	Marionette	INFO	Listening on port 46437
+WebDriver BiDi listening on ws://127.0.0.1:59109
+Read port: 46437
+1698538618514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59109/devtools/browser/ed453bb7-8e0d-4b4f-8d3d-b7f7e4b0af76
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/sc/h/53pvxhwnu4814i1e9beje3cqa, line 89: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/6af2c0d87b9879cbf3365be1a208293f84d37b1e/standard/funcaptcha_api.js?onload=loadChallenge, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698538643648	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538695412	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+1698538703304	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538703304	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538733245	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538733246	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538741958	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538741958	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538750560	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538750563	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538759256	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538759257	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538767790	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538767791	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538776476	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538776476	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1698538785118	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1698538785118	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 1411: Script terminated by timeout at:
+value@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:1411:17
+value@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:1426:422
+14446/emit/<@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:802:281
+emit@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:802:263
+rt@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:803:142
+
+1698538858180	Marionette	INFO	Stopped listening on port 46437
+1698552382377	geckodriver	INFO	Listening on 127.0.0.1:52489
+1698552382380	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53143" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileImQHa8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698552382810	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698552382894	Marionette	INFO	Listening on port 34825
+WebDriver BiDi listening on ws://127.0.0.1:53143
+Read port: 34825
+1698552383060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53143/devtools/browser/5d6b921e-6886-4eb3-8995-b599ffd9c893
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/ccb945bv4vtzvvcaid3d0halo, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.linkedin.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.licdn.com/aero-v1/sc/h/bf2zti0m4hz70upnw90rlmjfm, line 1: Error: Could not lazy load JS with src https://static.licdn.com/aero-v1/sc/h/51t74mlo1ty7vakn3a80a9jcp
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.licdn.com/sc/h/53pvxhwnu4814i1e9beje3cqa, line 89: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://client-api.arkoselabs.com/cdn/fc/js/6af2c0d87b9879cbf3365be1a208293f84d37b1e/standard/funcaptcha_api.js?onload=loadChallenge, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx, line 21572: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/95najyvdcubuecdgai6hw4pn0, line 2650: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 270: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd, line 266: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.14.0
+libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_14
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://static.licdn.com/aero-v1/sc/h/9vghoawmkb5fvzav7oabel24l, line 2711: Script terminated by timeout at:
+lookup@https://static.licdn.com/aero-v1/sc/h/9vghoawmkb5fvzav7oabel24l:2711:94
+create/__getLixTreatment/<@https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx:19593:26
+__getLixTreatment@https://static.licdn.com/aero-v1/sc/h/5q34qucb6u4t2xvqo6bi0m9gx:19594:31
+value@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:917:84
+value@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:916:123
+14446/e/<@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:898:290
+14446/emit/<@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:802:281
+emit@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:802:263
+rt@https://static.licdn.com/aero-v1/sc/h/bx1dyzl81eo74gmldbz3w7qdd:803:142
+
+1698552404035	Marionette	INFO	Stopped listening on port 34825

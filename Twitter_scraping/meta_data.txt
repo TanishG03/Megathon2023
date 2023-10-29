@@ -1,4 +1,5 @@
-Person's Name:Satya Nadella
-Description:Chairman and CEO of Microsoft Corporation
-Interaction Types:['https://schema.org/FollowAction', 'https://schema.org/SubscribeAction', 'https://schema.org/WriteAction']
-User Interaction Counts:[3103857, 279, 1634]
+Person's Name:Ponnurangam Kumaraguru “PK”
+Description:#ProfGiri #PGChairGiri @iiit_hyderabad, Distinguished Member @TheOfficialACM, TEDx Speaker, Angel Investor, Alumni @CarnegieMellon @bitspilaniindia
+Followers: 5903
+Following: 358
+Joined September 2009

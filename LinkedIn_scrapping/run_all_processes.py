@@ -17,7 +17,7 @@ def run_scripts(script_paths):
     for script_path in script_paths:
         try:
             # Run the Python script using subprocess
-            subprocess.run(["python", script_path], check=True)
+            subprocess.run(["python3", script_path], check=True)
             print(f"Script '{script_path}' executed successfully.")
         except subprocess.CalledProcessError as e:
             print(f"Error occurred while executing '{script_path}': {e}")

@@ -1196,3 +1196,54 @@ JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.
 _/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.33229f4a.js:1:2714859
 
 1698516904407	Marionette	INFO	Stopped listening on port 40029
+1698534484288	geckodriver	INFO	Listening on 127.0.0.1:36335
+1698534484290	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "48707" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileW2xdCZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698534484713	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698534484825	Marionette	INFO	Listening on port 33733
+WebDriver BiDi listening on ws://127.0.0.1:48707
+Read port: 33733
+1698534485005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:48707/devtools/browser/cb4b676a-e56e-4dca-ac7b-683b28a66f05
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.33229f4a.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.33229f4a.js:1:2714752
+
+1698536137505	Marionette	INFO	Stopped listening on port 33733
+1698540216817	geckodriver	INFO	Listening on 127.0.0.1:40171
+1698540216819	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "49957" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBn3Klz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698540217268	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698540217347	Marionette	INFO	Listening on port 39203
+WebDriver BiDi listening on ws://127.0.0.1:49957
+Read port: 39203
+1698540217539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49957/devtools/browser/6902cb57-bb1f-4c00-b718-631c44d610c9
+JavaScript warning: https://abs.twimg.com/responsive-web/client-web-legacy/main.33229f4a.js, line 1: Script terminated by timeout at:
+_/e/this._updateSessionStorage@https://abs.twimg.com/responsive-web/client-web-legacy/main.33229f4a.js:1:2714752
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1698541028940	Marionette	INFO	Stopped listening on port 39203
+1698553116377	geckodriver	INFO	Listening on 127.0.0.1:37103
+1698553116380	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7xbzdH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698553116812	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698553116900	Marionette	INFO	Listening on port 35955
+WebDriver BiDi listening on ws://127.0.0.1:44525
+Read port: 35955
+1698553117070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:44525/devtools/browser/98a57058-f1a9-4cfe-bb04-965633eeca49

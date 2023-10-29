@@ -59,7 +59,17 @@ while (True):
     page_source = driver.page_source
     soup = BS(page_source, features='html.parser')
     with open('activities.html', 'w') as f:
+        time.sleep(3)
         f.write(str(soup))
+        driver.execute_script("window.scrollTo(0, 4000);")
+    for i in range(0, 5):
+        page_source = driver.page_source
+        soup = BS(page_source, features='html.parser')
+        time.sleep(3)
+        with open('activities.html', 'a') as f:
+            f.write(str(soup))
+        driver.execute_script("window.scrollTo(0, 4000);")
+
 
     time.sleep(2)
     print("getting experinces...")
