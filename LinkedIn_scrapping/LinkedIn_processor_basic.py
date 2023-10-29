@@ -8,7 +8,7 @@ soup=BS(page_source,features='html.parser')
 connections=soup.find('span', class_='t-bold').text
 about=soup.find('div',class_='inline-show-more-text inline-show-more-text--is-collapsed inline-show-more-text--is-collapsed-with-line-clamp full-width')
 about_txt=''
-with open('scraed_data.txt', 'a') as f:
+with open('scraed_data.txt', 'w') as f:
         f.write(connections)
         f.write('\n')
 if about:

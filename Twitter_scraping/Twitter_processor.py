@@ -27,12 +27,15 @@ interaction_counters = data['author']['interactionStatistic']
 interaction_types = [counter['interactionType'] for counter in interaction_counters]
 user_interaction_counts = [counter['userInteractionCount'] for counter in interaction_counters]
 
+index = page_source.find("<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\" style=\"text-overflow: unset;\">Joined")
+end = page_source.find('<', index+len("<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\" style=\"text-overflow: unset;\">Joined"))
+joined = (page_source[index+len("<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\" style=\"text-overflow: unset;\">"):end])
 # Printing the extracted information
 with open("meta_data.txt","w") as f:
     f.write("Person's Name:"+ person_name+"\n")
     f.write("Description:"+ description+"\n")
-    f.write("Interaction Types:"+ str(interaction_types)+"\n")
-    f.write("User Interaction Counts:"+ str(user_interaction_counts)+"\n")
+    f.write(f"Followers: {user_interaction_counts[0]}\nFollowing: {user_interaction_counts[1]}\n")
+    f.write(joined+"\n")
 
 with open("scraed_data.txt","r+") as f:
     txt=f.read()
