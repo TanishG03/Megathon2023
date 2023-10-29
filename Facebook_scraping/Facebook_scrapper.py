@@ -15,10 +15,10 @@ driver.get(url)
 # Wait for the login form to be visible
 wait = WebDriverWait(driver, 10)
 
-login_form = wait.until(EC.presence_of_element_located((By.ID, "session_key")))
+login_form = wait.until(EC.presence_of_element_located((By.ID, "email")))
 
-username = "aadityavardhan.avna@gmail.com"
-password = "aaditya-123"
+username = "vishal.tanish50@gmail.com"
+password = "TanishG2003"
 
 # Enter username and password
 username_field = driver.find_element(By.ID, 'email')
@@ -29,3 +29,39 @@ password_field.send_keys(password)
 
 # Submit the login form
 password_field.send_keys(Keys.RETURN)
+
+time.sleep(10)
+
+profile_url = "https://www.facebook.com/markangelcomedy/"
+
+driver.get(profile_url)
+
+#to get the post data of the person
+page_source = driver.page_source
+soup = BS(page_source, features='html.parser')
+
+driver.execute_script("window.scrollTo(0, 4000);")
+
+time.sleep(2)
+driver.execute_script("window.scrollTo(0, 4000);")
+
+time.sleep(2)
+driver.execute_script("window.scrollTo(0, 4000);")
+time.sleep(2)
+
+
+driver.execute_script("window.scrollTo(0, 4000);")
+page_source = driver.page_source
+soup = BS(page_source, features='html.parser')
+time.sleep(2)
+with open('post.html', 'w') as f:
+    f.write(str(soup))
+
+#to get the about of the data
+driver.get(profile_url+"about")
+driver.execute_script("window.scrollTo(0, 4000);")
+time.sleep(2)
+with open('about.html', 'w') as f:
+    f.write(str(soup))
+
+
