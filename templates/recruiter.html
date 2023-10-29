@@ -108,6 +108,10 @@
                         </div>
                         <div class="price" style="background-image: url('${item.image_url}')"></div>
                     `;
+                    newItem.addEventListener('click', function() {
+                const url = `/${item.name}-${item.contact}`;
+                window.location.href = url;
+            });
                     itemList.appendChild(newItem);
                 });
             })

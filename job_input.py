@@ -104,16 +104,92 @@ def store_data():
     
 
 @app.route('/getData')
-def get_data():
-    # Replace this with your database query to fetch data
-    data_from_db = [
-        {'name': 'Tanish Gupta', 'department': 'Executive', 'contact': '1234567890','image_url': '../static/download.jpeg', 'experience': '9+ Years'},
-        {'name': 'Narain', 'department': 'Address 2', 'contact': '9876543210','image_url': '../static/download.jpeg', 'experience': '4 Years'},
-        {'name': 'Bipasha', 'department': 'Address 2', 'contact': '9876543210','image_url': '../static/download.jpeg', 'experience': '2 Months'},
+# def get_data():
+#     # Replace this with your database query to fetch data
+#     data_from_db = [
+#         {'name': 'Tanish Gupta', 'department': 'Executive', 'contact': '1234567890','image_url': '../static/download.jpeg', 'experience': '9+ Years'},
+#         {'name': 'Narain', 'department': 'Address 2', 'contact': '9876543210','image_url': '../static/download.jpeg', 'experience': '4 Years'},
+#         {'name': 'Bipasha', 'department': 'Address 2', 'contact': '9876543210','image_url': '../static/download.jpeg', 'experience': '2 Months'},
 
-        # Add more items as needed
-    ]
-    return jsonify(data_from_db)
+#         # Add more items as needed
+#     ]
+#     return jsonify(data_from_db)
+def get_data():
+    try:
+        # Connect to the database
+        conn = sqlite3.connect('form_data.db')
+        cursor = conn.cursor()
+
+        # Query the database to fetch name, position, experience, and contact number
+        cursor.execute('SELECT name, position, experience, contact FROM form_data')
+        data_from_db = cursor.fetchall()
+
+        # Convert the query result to a list of dictionaries
+        data_list = []
+        for row in data_from_db:
+            name, position, experience, contact = row
+            data_dict = {
+                'name': name,
+                'department': position,
+                'experience': experience,
+                'contact': contact,
+                'image_url': '../static/download.jpeg'
+            }
+            data_list.append(data_dict)
+
+        # Close the database connection
+        conn.close()
+
+        # Return the data as JSON response
+        return jsonify(data_list)
+    except Exception as e:
+        # Handle exceptions and send an error response to the frontend
+        error_message = str(e)
+        response_data = {"status": "error", "message": error_message}
+        return jsonify(response_data), 500
+
+@app.route('/<string:name>-<string:contact>')
+def show_details(name, contact):
+    try:
+        # Connect to the database
+        conn = sqlite3.connect('form_data.db')
+        cursor = conn.cursor()
+
+        # Query the database to fetch data for the specific name and contact number
+        cursor.execute('SELECT name, position, contact, linkedin, twitter, experience, avg1, avg2, avg3, avg4, avg5 FROM form_data WHERE name = ? AND contact = ?', (name, contact))
+        data_from_db = cursor.fetchone()
+
+        # Close the database connection
+        conn.close()
+
+        # If data is found, return it as a JSON response
+        if data_from_db:
+            name, position, contact, linkedin, twitter, experience, avg1, avg2, avg3, avg4, avg5 = data_from_db
+            data_dict = {
+                'name': name,
+                'position': position,
+                'contact': contact,
+                'linkedin': linkedin,
+                'twitter': twitter,
+                'experience': experience,
+                'avg1': avg1,
+                'avg2': avg2,
+                'avg3': avg3,
+                'avg4': avg4,
+                'avg5': avg5
+            }
+            return render_template('employee_details.html', data_dict=data_dict)
+        else:
+            # If no data is found, return a not found response
+            response_data = {"status": "error", "message": "Data not found"}
+            return jsonify(response_data), 404
+
+    except Exception as e:
+        # Handle exceptions and send an error response to the frontend
+        error_message = str(e)
+        response_data = {"status": "error", "message": error_message}
+        return jsonify(response_data), 500
+
 
 
 if __name__ == '__main__':
