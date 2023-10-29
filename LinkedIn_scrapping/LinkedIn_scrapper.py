@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup as BS
 import time
+from selenium.common.exceptions import TimeoutException
 
 driver = webdriver.Firefox()
 driver.maximize_window()
@@ -39,7 +40,26 @@ time.sleep(4)
 while (True):
     print("Enter the URL:")
     profile_url = input()
-    
+
+    try:
+        # Wait until the URL contains the word 'feed'
+        wait.until(EC.url_contains('feed'))
+    except TimeoutException:
+    # Handle the TimeoutException
+         print("TimeoutException occurred. Checking for window handles...")
+
+         # Get the current window handles
+         current_handles = driver.window_handles
+
+         # Wait for a new window to open (change the timeout value as needed)
+         new_window = wait.until(EC.new_window_is_opened(current_handles))
+
+         # Switch to the new window
+         driver.switch_to.window(new_window)
+
+         # Wait until the URL contains 'feed' in the new window
+         wait.until(EC.url_contains('feed'))
+
     driver.get(profile_url)
 
     time.sleep(5)
@@ -69,7 +89,6 @@ while (True):
         with open('activities.html', 'a') as f:
             f.write(str(soup))
         driver.execute_script("window.scrollTo(0, 4000);")
-
 
     time.sleep(2)
     print("getting experinces...")
