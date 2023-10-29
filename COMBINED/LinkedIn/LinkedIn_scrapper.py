@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup as BS
 import time
 import sys
+from selenium.common.exceptions import TimeoutException
 
 driver = webdriver.Firefox()
 driver.maximize_window()
@@ -32,12 +33,32 @@ password_field.send_keys(password)
 password_field.send_keys(Keys.RETURN)
 
 # Wait for the login process to complete
-# wait.until(EC.title_contains("LinkedIn"))
+
 time.sleep(4)
 
 
 # Now you can navigate to the profile URL and scrape the data
 profile_url = sys.argv[1]
+try:
+    # Wait until the URL contains the word 'feed'
+    wait.until(EC.url_contains('feed'))
+except TimeoutException:
+    # Handle the TimeoutException
+    print("TimeoutException occurred. Checking for window handles...")
+
+    # Get the current window handles
+    current_handles = driver.window_handles
+
+    # Wait for a new window to open (change the timeout value as needed)
+    new_window = wait.until(EC.new_window_is_opened(current_handles))
+
+    # Switch to the new window
+    driver.switch_to.window(new_window)
+
+    # Wait until the URL contains 'feed' in the new window
+    wait.until(EC.url_contains('feed'))
+print("URL contains 'feed'. Proceeding with scraping...")
+time.sleep(5)
 driver.get(profile_url)
 time.sleep(5)
 # Extract the page source or perform scraping as needed
