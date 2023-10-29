@@ -210,14 +210,35 @@ for i in range(0, 5):
     score[i] = -score[i]
     if useful_words > 0:
         score[i] = score[i]/useful_words
-    score[i] *= 2000
+    score[i] *= 200
 
 score[1] = -score[1]
 score[2] = -score[2]
 score[3] = -score[3]
 # print(total_words, useful_words)
-print(f"Extroversion: {score[0]:0.3f}\tEmotional Stability: {score[1]:0.3f}\tAgreeableness: {score[3]:0.3f}\n"
-      f"Conscientiousness: {score[3]:0.3f}\tOpenness: {score[4]:0.3f}")
+followers = 0
+following = 0
+with open("meta_data_tw.txt", "r") as f:
+    content = f.read().split("\n")
+    for line in content:
+        line = line.split(" ")
+        # print(line[0])
+        if line[0] == "Followers:":
+            followers = int(line[1])
+        if line[0] == "Following:":
+            following = int(line[1])
+
+if following > 0 and followers/following < 50:
+    score[0] += followers/(following*10)
+for i in range(0, 5):
+    score[i] += 2.5
+    if score[i] < 0:
+        score[i] = 0
+    if score[i] > 5:
+        score[i] = 5
+
+print(f"Conscientiousness: {score[3]:0.3f}\tEmotional Stability: {score[1]:0.3f}\tAgreeableness: {score[3]:0.3f}\n"
+      f"Extroversion: {score[0]:0.3f}\tOpenness: {score[4]:0.3f}")
 print(f"Political: {100*politics_coeff/useful_words: 0.2f}%, Tech: {100*tech_coeff/useful_words: 0.2f}%, "
       f"Sales: {100*sales_coeff/useful_words: 0.2f}%")
 print(f"Words-per-post: {total_words/total_posts:0.2f}")
