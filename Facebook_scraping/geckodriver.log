@@ -1,0 +1,412 @@
+1698557781168	geckodriver	INFO	Listening on 127.0.0.1:59127
+1698557781523	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "50197" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefSnyrv"
+Gtk-Message: 11:06:21.545: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:183716): Gtk-WARNING **: 11:06:21.611: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:06:21.611: Failed to load module "canberra-gtk-module"
+
+(firefox:183716): Gtk-WARNING **: 11:06:21.612: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:06:21.612: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698557782171	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698557782263	Marionette	INFO	Listening on port 38079
+WebDriver BiDi listening on ws://127.0.0.1:50197
+Read port: 38079
+1698557782468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50197/devtools/browser/77d4ee04-6f56-48d2-80a9-20f3d0c6a863
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1698557830754	geckodriver	INFO	Listening on 127.0.0.1:58587
+1698557831110	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "34225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehK30jD"
+Gtk-Message: 11:07:11.131: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:184459): Gtk-WARNING **: 11:07:11.186: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:07:11.186: Failed to load module "canberra-gtk-module"
+
+(firefox:184459): Gtk-WARNING **: 11:07:11.187: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:07:11.187: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698557831739	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698557831861	Marionette	INFO	Listening on port 40863
+WebDriver BiDi listening on ws://127.0.0.1:34225
+Read port: 40863
+1698557832029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:34225/devtools/browser/64e737a7-b4e9-47e1-b453-03f6c954fd78
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1698557886426	Marionette	INFO	Stopped listening on port 38079
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3206/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf, line 173: Script terminated by timeout at:
+r@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:173:602
+u/a.port1.onmessage@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:173:1442
+
+1698558073200	Marionette	INFO	Stopped listening on port 40863
+1698558074530	geckodriver	INFO	Listening on 127.0.0.1:41671
+1698558074928	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "59993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJzS2nY"
+Gtk-Message: 11:11:14.947: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:185589): Gtk-WARNING **: 11:11:15.004: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:11:15.004: Failed to load module "canberra-gtk-module"
+
+(firefox:185589): Gtk-WARNING **: 11:11:15.006: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:11:15.006: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558075543	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558075622	Marionette	INFO	Listening on port 45937
+Read port: 45937
+WebDriver BiDi listening on ws://127.0.0.1:59993
+1698558075696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59993/devtools/browser/54993ab2-0075-4620-a7ed-a3d1729f1765
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3206/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1698558260330	geckodriver	INFO	Listening on 127.0.0.1:44897
+1698558260686	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "54487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJQRCeP"
+Gtk-Message: 11:14:20.704: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:186681): Gtk-WARNING **: 11:14:20.778: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:14:20.778: Failed to load module "canberra-gtk-module"
+
+(firefox:186681): Gtk-WARNING **: 11:14:20.779: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:14:20.779: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558261374	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558261472	Marionette	INFO	Listening on port 36185
+WebDriver BiDi listening on ws://127.0.0.1:54487
+Read port: 36185
+1698558261608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54487/devtools/browser/e7f71d39-b711-482f-b4e6-aad13947ff65
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/0NieyYr5Myt.js?_nc_x=Ij3Wp8lg5Kz, line 275: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/0NieyYr5Myt.js?_nc_x=Ij3Wp8lg5Kz:275:113
+
+1698558266563	Marionette	INFO	Stopped listening on port 36185
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3inap4/yk/l/makehaste_jhash/JrXVMBm7DJ_dUoc4jb2qW3RW8k64RJJBn8519OVzs8E36AhxffiucrPjnSBbJ7-FDpek6KflOOPdjKir1Jw-6_7Z-gVb4qw7Dox.js?_nc_x=kkkI206aNUf, line 389: Script terminated by timeout at:
+a@https://static.xx.fbcdn.net/rsrc.php/v3inap4/yk/l/makehaste_jhash/JrXVMBm7DJ_dUoc4jb2qW3RW8k64RJJBn8519OVzs8E36AhxffiucrPjnSBbJ7-FDpek6KflOOPdjKir1Jw-6_7Z-gVb4qw7Dox.js?_nc_x=kkkI206aNUf:389:197
+l@https://static.xx.fbcdn.net/rsrc.php/v3i4uq4/yw/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5.js?_nc_x=kkkI206aNUf:716:12300
+dispatch@https://static.xx.fbcdn.net/rsrc.php/v3i4uq4/yw/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5.js?_nc_x=kkkI206aNUf:716:12948
+Z@https://static.xx.fbcdn.net/rsrc.php/v3i4uq4/yw/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5.js?_nc_x=kkkI206aNUf:723:25282
+a/ka/<@https://static.xx.fbcdn.net/rsrc.php/v3i4uq4/yw/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5.js?_nc_x=kkkI206aNUf:723:29825
+a@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:229:191
+p@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:230:882
+m/<@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:230:407
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1698558271757	Marionette	INFO	Stopped listening on port 45937
+1698558347288	geckodriver	INFO	Listening on 127.0.0.1:39965
+1698558347651	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "42809" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6vQKjl"
+Gtk-Message: 11:15:47.671: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:187497): Gtk-WARNING **: 11:15:47.726: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:15:47.726: Failed to load module "canberra-gtk-module"
+
+(firefox:187497): Gtk-WARNING **: 11:15:47.727: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:15:47.727: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558348262	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558348377	Marionette	INFO	Listening on port 45093
+WebDriver BiDi listening on ws://127.0.0.1:42809
+Read port: 45093
+1698558348544	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42809/devtools/browser/08b9b7fc-3489-4985-a776-bf2c1e1edc38
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3206/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1698558421266	geckodriver	INFO	Listening on 127.0.0.1:34885
+1698558421633	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "55607" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1IAn81"
+Gtk-Message: 11:17:01.655: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:188454): Gtk-WARNING **: 11:17:01.713: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:17:01.713: Failed to load module "canberra-gtk-module"
+
+(firefox:188454): Gtk-WARNING **: 11:17:01.714: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:17:01.714: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558422267	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558422346	Marionette	INFO	Listening on port 33227
+WebDriver BiDi listening on ws://127.0.0.1:55607
+Read port: 33227
+1698558422521	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55607/devtools/browser/735c20dc-9c60-48c4-8b82-83699093a9af
+1698558425249	Marionette	INFO	Stopped listening on port 33227
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf, line 47: Script terminated by timeout at:
+F@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:47:1549
+c.encode@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:367:5649
+a/this.$13@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:369:855
+b.$16@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:369:5459
+b.publish@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:369:5082
+e.$33@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:372:6478
+e.$32@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:372:2010
+e.publish@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:372:1608
+e.$29@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:374:4459
+e.$32@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:374:3941
+e.$28@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:374:3650
+e.$26@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:374:2834
+e.publish@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:374:2618
+m/</</<@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:246:924
+m/</<@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:246:866
+
+1698558425498	Marionette	INFO	Stopped listening on port 45093
+1698558428069	geckodriver	INFO	Listening on 127.0.0.1:55765
+1698558428420	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "49635" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0jly4L"
+Gtk-Message: 11:17:08.440: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:189099): Gtk-WARNING **: 11:17:08.497: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:17:08.497: Failed to load module "canberra-gtk-module"
+
+(firefox:189099): Gtk-WARNING **: 11:17:08.498: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:17:08.498: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558429037	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558429114	Marionette	INFO	Listening on port 39943
+Read port: 39943
+WebDriver BiDi listening on ws://127.0.0.1:49635
+1698558429178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49635/devtools/browser/bd015247-7978-4adf-aaf7-5b2000d6e7b1
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3206/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iAFI4/ya/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5eYnxV3Zgqa6.js?_nc_x=kkkI206aNUf, line 602: Script terminated by timeout at:
+isPredictiveDash@https://static.xx.fbcdn.net/rsrc.php/v3iAFI4/ya/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5eYnxV3Zgqa6.js?_nc_x=kkkI206aNUf:602:4309
+a@https://static.xx.fbcdn.net/rsrc.php/v3iAFI4/ya/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5eYnxV3Zgqa6.js?_nc_x=kkkI206aNUf:721:2081
+collectUncontrolledState@https://static.xx.fbcdn.net/rsrc.php/v3iAFI4/ya/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5eYnxV3Zgqa6.js?_nc_x=kkkI206aNUf:723:18123
+dispatch@https://static.xx.fbcdn.net/rsrc.php/v3iAFI4/ya/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5eYnxV3Zgqa6.js?_nc_x=kkkI206aNUf:716:12916
+Z@https://static.xx.fbcdn.net/rsrc.php/v3iAFI4/ya/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5eYnxV3Zgqa6.js?_nc_x=kkkI206aNUf:723:25282
+a/ka/<@https://static.xx.fbcdn.net/rsrc.php/v3iAFI4/ya/l/makehaste_jhash/dBL5RyUWZf9hfyOBbrxeG4zZsMC76tFn7M4bZl9VM-BaKcIYIaUSg61VCNlVywIMQ1BuKXXtvUxk5eYnxV3Zgqa6.js?_nc_x=kkkI206aNUf:723:29825
+a@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:229:191
+p@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:230:882
+m/<@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:230:407
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1698558588054	Marionette	INFO	Stopped listening on port 39943
+1698558590028	geckodriver	INFO	Listening on 127.0.0.1:50513
+1698558590398	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "48017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTgCXSC"
+Gtk-Message: 11:19:50.416: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:190225): Gtk-WARNING **: 11:19:50.469: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:19:50.469: Failed to load module "canberra-gtk-module"
+
+(firefox:190225): Gtk-WARNING **: 11:19:50.471: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:19:50.471: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558591019	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558591133	Marionette	INFO	Listening on port 44235
+WebDriver BiDi listening on ws://127.0.0.1:48017
+Read port: 44235
+1698558591298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:48017/devtools/browser/858404cb-7aed-4443-af66-0ba5e2dfbb57
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3206/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1698558746199	Marionette	INFO	Stopped listening on port 44235
+1698558797059	geckodriver	INFO	Listening on 127.0.0.1:49925
+1698558797421	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "39185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXKayao"
+Gtk-Message: 11:23:17.442: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:191532): Gtk-WARNING **: 11:23:17.497: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:23:17.497: Failed to load module "canberra-gtk-module"
+
+(firefox:191532): Gtk-WARNING **: 11:23:17.498: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:23:17.498: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558798036	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698558798113	Marionette	INFO	Listening on port 35509
+Read port: 35509
+WebDriver BiDi listening on ws://127.0.0.1:39185
+1698558798221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:39185/devtools/browser/7b7ed967-b6b9-49f8-ba3c-08893a768b18
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3206/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf, line 359: Script terminated by timeout at:
+a.scheduleCallback@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:359:1096
+a/this.$12@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:369:462
+b.disconnect@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:369:4351
+e.$29@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:372:3182
+e.shutdown@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:372:1398
+e.$25@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:374:2477
+e.$24/<@https://static.xx.fbcdn.net/rsrc.php/v3iBQ74/y7/l/makehaste_jhash/Cw5hvSBmqxL5n-W_CKGzVkaXPHAu57U60NWqugGCUDfm87hReLdFosj-6PfNRHOp9EoixxLM0gXcG93g1mxTBzg025JoNtYEfFJw49GOMht8FBLDybvqXNyLmcB4_6s0HJ_3oK5HhfD_gc13JL7tOBO8h8kJpFWqyHwZboWfeuRDkbUv.js?_nc_x=kkkI206aNUf:374:2318
+a@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:229:191
+p@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:230:882
+m/<@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:230:407
+
+1698559018735	Marionette	INFO	Stopped listening on port 35509
+1698559020766	geckodriver	INFO	Listening on 127.0.0.1:57603
+1698559021133	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "43275" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8sqO4Y"
+Gtk-Message: 11:27:01.153: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:192698): Gtk-WARNING **: 11:27:01.206: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:27:01.206: Failed to load module "canberra-gtk-module"
+
+(firefox:192698): Gtk-WARNING **: 11:27:01.207: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:27:01.207: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698559021757	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698559021858	Marionette	INFO	Listening on port 45575
+WebDriver BiDi listening on ws://127.0.0.1:43275
+Read port: 45575
+1698559022028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:43275/devtools/browser/77122810-29e2-41c1-a97b-68132e9738a1
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1698559035010	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3206/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iDne4/yS/l/makehaste_jhash/JrXVMBm7DJ_dUoc4jb2qW3RW8k64RJJBn8519OVzs8E36AhxffiucrPjnSBbJ7-FDpek6KflOOPdjKir1Jw-6_7Z-gVb4qw7DoxaZAJI0Zdz8KYm5G4HsXMCWNsTonqDInqd.js?_nc_x=kkkI206aNUf, line 619: Script terminated by timeout at:
+a.serialize/a.t<@https://static.xx.fbcdn.net/rsrc.php/v3iDne4/yS/l/makehaste_jhash/JrXVMBm7DJ_dUoc4jb2qW3RW8k64RJJBn8519OVzs8E36AhxffiucrPjnSBbJ7-FDpek6KflOOPdjKir1Jw-6_7Z-gVb4qw7DoxaZAJI0Zdz8KYm5G4HsXMCWNsTonqDInqd.js?_nc_x=kkkI206aNUf:619:1926
+a.serialize@https://static.xx.fbcdn.net/rsrc.php/v3iDne4/yS/l/makehaste_jhash/JrXVMBm7DJ_dUoc4jb2qW3RW8k64RJJBn8519OVzs8E36AhxffiucrPjnSBbJ7-FDpek6KflOOPdjKir1Jw-6_7Z-gVb4qw7DoxaZAJI0Zdz8KYm5G4HsXMCWNsTonqDInqd.js?_nc_x=kkkI206aNUf:619:1836
+b.updateCache@https://static.xx.fbcdn.net/rsrc.php/v3iDne4/yS/l/makehaste_jhash/JrXVMBm7DJ_dUoc4jb2qW3RW8k64RJJBn8519OVzs8E36AhxffiucrPjnSBbJ7-FDpek6KflOOPdjKir1Jw-6_7Z-gVb4qw7DoxaZAJI0Zdz8KYm5G4HsXMCWNsTonqDInqd.js?_nc_x=kkkI206aNUf:619:1091
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3iDne4/yS/l/makehaste_jhash/JrXVMBm7DJ_dUoc4jb2qW3RW8k64RJJBn8519OVzs8E36AhxffiucrPjnSBbJ7-FDpek6KflOOPdjKir1Jw-6_7Z-gVb4qw7DoxaZAJI0Zdz8KYm5G4HsXMCWNsTonqDInqd.js?_nc_x=kkkI206aNUf:619:313
+a@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:229:191
+p@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:230:882
+m/<@https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/OMZmMt8cWIP.js?_nc_x=kkkI206aNUf:230:407
+
+1698559081815	Marionette	INFO	Stopped listening on port 45575
+1698559247311	geckodriver	INFO	Listening on 127.0.0.1:34397
+1698559247676	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "34705" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDWQtVH"
+Gtk-Message: 11:30:47.696: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:193928): Gtk-WARNING **: 11:30:47.752: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:30:47.752: Failed to load module "canberra-gtk-module"
+
+(firefox:193928): Gtk-WARNING **: 11:30:47.753: GTK+ module /snap/firefox/3206/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 11:30:47.753: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698559248290	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1698559248394	Marionette	INFO	Listening on port 43583
+WebDriver BiDi listening on ws://127.0.0.1:34705
+Read port: 43583
+1698559248560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:34705/devtools/browser/d7b1ce09-04c7-4da2-9171-04eef61d7c84
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yj/l/en_GB/ylIW20mx71j.js?_nc_x=Ij3Wp8lg5Kz, line 26: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iYXp4/y5/l/makehaste_jhash/e72jWMJpP3m.js?_nc_x=kkkI206aNUf, line 175: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3206/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
